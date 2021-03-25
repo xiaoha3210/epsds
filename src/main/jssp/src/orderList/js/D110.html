@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+	
+<script src="ui/libs/jquery-validation-1.9.0/jquery.validate.js"></script>
+<html>
+<!-- ヘッド情報 -->
+<imart type="head">
+  <title>受注一覧</title>
+</imart>
+
+<!-- 画面タイトル -->
+<div class="imui-title">
+  <h1>受注一覧</h1>
+</div>
+
+<!-- 以下ツールバー -->
+<div class="imui-toolbar-wrap">
+  <div class="imui-toolbar-inner">
+    <!-- ツールバー左側 -->
+    <ul class="imui-list-toolbar">
+      <!-- 戻る -->
+      <li><a  class="imui-toolbar-icon" title="戻る"><span class="im-ui-icon-common-16-back"></span></a></li>
+      <!-- 帳票出力画面-->
+      <li><a href="orderList/js/D120" class="imui-toolbar-icon">帳票出力</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- コンテンツエリア -->
+<div class="imui-form-container-wide">
+	
+	<div class="imui-box-operation cf">
+		<imart type="imuiGadgetBar" id="sampleId">
+		</imart>
+		<div class="imui-chapter-title">
+		<h2>検索</h2>
+		</div>
+		<form id="form" method="POST" class="target_form mt-10" action="hoge/update_delete" onsubmit="return false;">
+			<table class="imui-form">
+			<tbody>
+				<tr>
+			    	<th width="20%"><label>PRNo.</label></th>
+			    	<td><imart type="imuiTextbox" id="textbox1" name="prNo" style="width: 200px;" /></td>
+				</tr>
+				<tr>
+			    	<th><label>受注No.</label></th>
+			    	<td><imart type="imuiTextbox" id="textbox2" name="jyusyu" style="width: 200px;" /></td>
+				</tr>
+			    <tr>
+					<th><label>試験名</label></th>
+					<td><imart type="imuiTextbox" id="textbox" name="textarea" style="width: 200px;" height="50px" /></td>
+			    </tr>
+			    <tr>
+			      <th><label>主担当部署</label></th>
+			      <td><imart type="imuiTextbox" id="textbox2" name="textarea" style="width: 200px;" height="50px" /></td>
+			    </tr>
+			    <tr>
+			      <th><label>受注ステータス</label></th>
+			      <td>
+			      	<imart type="imuiCheckbox" id="checkbox_1" name="checkbox" label="仮受注"  />
+			        <imart type="imuiCheckbox" id="checkbox_2" name="checkbox" label="本受注"  />
+			        <imart type="imuiCheckbox" id="checkbox_3" name="checkbox" label="受注終了"  />
+			      </td>
+			    </tr>
+		    </tbody>
+			</table>
+		  <div>
+			<imart type="imuiButton" value="検索" id="search" class="imui-medium-button" />
+			<imart type="imuiButton" value="クリア" id="clear" class="imui-medium-button" />
+		  </div>
+		</form>
+	</div>
+	
+	<div class="imui-chapter-title">
+		<h2>プロジェクト・受注一覧</h2>
+	</div>
+   <imart type="imuiListTable" data=$bind.listtable id="listtable"   viewRecords="true" height="300">
+     <pager rowNum="20" rowList="20,50,100" />
+     <cols>
+       <col name="col1" caption="PRNo." />
+       <col name="col2" caption="試験名" />
+       <col name="col3" caption="試験期間" />
+       <col name="col4" caption="受注No.">
+       	<showLink baseLinkUrl="orderList/js/D210" />
+       </col>
+       <col name="col5" caption="受注ステータス" />
+       <col name="col6" caption="主担当部署" />
+       <col name="col7" caption="受注金額" />
+     </cols>
+   </imart>
+ </div>
+<imart type="head">
+<script src="ui/libs/jquery-validation-1.9.0/jquery.validate.js"></script>
+<imart type="imuiValidationRule" rule="validators/validator#init" rulesName="rules" messagesName="messages"/>
+</imart>
+<script>
+
+$('#search').click(function() {
+	
+	('#form', rules, messages, undefined, function(error, element) {
+	      var td = $(element).parents('td:first');
+	      if (td.hasClass('error-placement-last')) {
+	          error.insertAfter(td.children(':last'));
+	        } else {
+	          error.insertAfter(element);
+	        }
+	    });
+	
+});
+
+  $(function(){
+  })
+
+</script>
+</html>

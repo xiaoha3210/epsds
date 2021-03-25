@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routing-jssp-config
+    xmlns="http://www.intra-mart.jp/router/routing-jssp-config"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.intra-mart.jp/router/routing-jssp-config routing-jssp-config.xsd">
+
+    <authz-default mapper="welcome-all" />
+    
+     <file-mapping path="/detials/js/detials" page="detials/js/detials" />
+     <file-mapping path="/orderList/js/D210" page="orderList/js/D210" />
+     <file-mapping path="/orderList/js/D310" page="orderList/js/D310" />
+    
+	<file-mapping path="/orderList/js/D110" page="orderList/js/D110" >
+    	<authz uri="service://testtest/orderList" action="execute" />
+	</file-mapping>	
+	<file-mapping path="/orderList/js/D120" page="orderList/js/D120" >
+    	<authz uri="service://testtest/output" action="execute" />
+	</file-mapping>
+</routing-jssp-config>

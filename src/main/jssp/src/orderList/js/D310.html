@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<!-- ヘッド情報 -->
+<imart type="head">
+  <title>受注明細詳細</title>
+</imart>
+
+<!-- 画面タイトル -->
+<div class="imui-title">
+  <h1>受注明細詳細</h1>
+</div>
+
+<!-- 以下ツールバー -->
+<div class="imui-toolbar-wrap">
+  <div class="imui-toolbar-inner">
+    <!-- ツールバー左側 -->
+    <ul class="imui-list-toolbar">
+    </ul>
+    <!-- ツールバー右側 -->
+    <ul class="imui-list-box-toolbar-utility">
+    </ul>
+  </div>
+</div>
+
+<!-- コンテンツエリア -->
+<div class="imui-form-container-wide">
+	
+	<div class="imui-box-operation cf">
+		<imart type="imuiGadgetBar" id="sampleId">
+		</imart>
+		<div class="imui-chapter-title">
+		<h2>基本情報</h2>
+		</div>
+		<form id="form" method="POST" class="target_form mt-10" action="hoge/update_delete" onsubmit="return false;">
+			<table class="imui-form">
+			<tbody id = "tbody1">
+				<tr>
+			    	<th width="20%"><label>PRNo.</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM1" name="search" width="350px" value="0000000011" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>受注No.</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM2" name="search" width="350px" value="0000000222" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>部署</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM3" name="search" width="350px" value="DM1" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>明細No.</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM4" name="search" width="350px" value="1001" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>明細内容</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM5" name="search" width="350px" value="明細1" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>受注金額</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM6" name="search" width="350px" value="￥220,000" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>予定外注費売上</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM7" name="search" width="350px" value="￥120,000" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>予定外注費</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM8" name="search" width="350px" value="￥100,000" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>予定工数（人日）</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM9" name="search" width="350px" value="6" disabled/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>受注ステータス</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM10" name="search" width="350px" value="本受注" disabled/></td>
+				</tr>
+				
+		    </tbody>
+			</table>
+		</form>
+	</div>
+	
+	<div class="imui-chapter-title">
+		<h2>明細詳細</h2>
+	</div>
+	<imart type="imuiListTable" data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300">
+     <pager rowNum="10" rowList="1,5,10" />
+     <cols>
+       <col name="col1" caption="年月" width="60" />
+       <col name="col2" caption="売上確定済金額" width="100"/>
+       <col name="col3" caption="全体進捗度" width="90"/>
+       <col name="col4" caption="部署" width="50"/>
+       <col name="col5" caption="総予定工数(人日)" width="100"/>
+       <col name="col6" caption="累積実績工数(人日)" width="110"/>
+       <col name="col7" caption="工数進捗度" width="80"/>
+       <col name="col8" caption="予定外注費売上" width="100"/>
+       <col name="col9" caption="予定外注費" width="70"/>
+       <col name="col10" caption="外注費" width="50"/>
+       <col name="col11" caption="外注費進捗度" width="90"/>
+       <col name="col12" caption="進捗度売上（理論値）" width="120"/>
+       <col name="col13" caption="進捗度売上（報告値)" width="120"/>
+       <col name="col14" caption="売上調整値" width="120"/>
+       <col name="col15" caption="終了フラグ" width="120"/>
+       <col name="col16" caption="コメント" width="120"/>
+     </cols>
+   </imart>
+ </div>
+ 
+
+<script>
+
+function clearClick(){
+	$('input[name="search"]').val("");
+	$('input[name="checkbox"]').prop('checked',false);
+}
+
+</script>
+</html>
