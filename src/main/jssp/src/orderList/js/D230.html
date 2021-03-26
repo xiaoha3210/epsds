@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!-- ヘッド情報 -->
+<imart type="head">
+  <title>売上確定</title>
+</imart>
+
+<!-- 画面タイトル -->
+<div class="imui-title">
+  <h1>売上確定</h1>
+</div>
+
+<!-- 以下ツールバー -->
+<div class="imui-toolbar-wrap">
+  <div class="imui-toolbar-inner">
+    <!-- ツールバー左側 -->
+    <ul class="imui-list-toolbar">
+    	<!-- 戻る -->
+      	<li><a  class="imui-toolbar-icon" title="戻る" onclick="history.back()"><span class="im-ui-icon-common-16-back"></span></a></li>
+    </ul>
+    <!-- ツールバー右側 -->
+    <ul class="imui-list-box-toolbar-utility">
+    </ul>
+  </div>
+</div>
+
+<!-- コンテンツエリア -->
+<div class="imui-form-container-wide">
+	
+	<div class="imui-box-operation cf">
+		<imart type="imuiGadgetBar" id="sampleId">
+		</imart>
+		<div class="imui-chapter-title">
+		<h2>基本情報</h2>
+		</div>
+		<form id="form" method="POST" class="target_form mt-10" action="hoge/update_delete" onsubmit="return false;">
+			<table class="imui-form">
+			<tbody id = "tbody1">
+				<tr>
+			    	<th width="20%"><label>PRNo.</label></th>
+			    	<td><imart type="imuiTextbox" id="startYM" name="search" width="350px" disabled value="0000000011"/></td>
+				</tr>
+				<tr>
+			    	<th><label>受注No.</label></th>
+			    	<td><imart type="imuiTextbox" id="endYM" name="search" width="350px"　disabled value="0000000222"/></td>
+				</tr>
+				<tr>
+			    	<th width="20%"><label>部署</label></th>
+			    	<td><imart type="imuiTextbox" id="meisaiNo" name="search" width="350px" disabled value="DM1"/></td>
+				</tr>
+				<tr>
+			    	<th><label>受注ステータス</label></th>
+			    	<td><imart type="imuiTextbox" id="meisai" name="search" width="350px"　disabled value="本受注"/></td>
+				</tr>
+				<tr>
+			    	<th><label>売上年月</label></th>
+			    	<td><imart type="imuiTextbox" id="money" name="search" width="350px"　disabled value="2021年2月"/></td>
+				</tr>
+		    </tbody>
+			</table>
+			<div>
+				<imart type="imuiButton" value="一時保存" id="search" class="imui-medium-button" />
+				<imart type="imuiButton" value="確定" id="search" class="imui-medium-button" />
+		  	</div>
+		</form>
+	</div>
+	<div class="imui-chapter-title">
+		<h2>明細一覧</h2>
+	</div>
+	<imart type="imuiListTable" 　data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300">
+     <pager rowNum="20" rowList="20,50,100" />
+     <cols>
+		<col name="col1" caption="明細No." width="60" >
+			<showLink baseLinkUrl="orderList/js/D310" />
+		</col>
+		<col name="col2" caption="明細内容" width="200"editable="true"/>
+     </cols>
+   </imart>
+ </div>
+<script>
+$(document).ready(function(){
+	if ("1"=="1") {
+		var length = $("#listtable").jqGrid("getRowData").length;
+		for (let i = 0 ; i< length ; i++) {
+			
+		}
+	}
+	
+	
+});
+
+</script>
+</html>

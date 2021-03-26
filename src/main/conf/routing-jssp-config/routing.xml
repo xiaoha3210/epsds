@@ -6,8 +6,10 @@
 
     <authz-default mapper="welcome-all" />
     
-     <file-mapping path="/detials/js/detials" page="detials/js/detials" />
      <file-mapping path="/orderList/js/D210" page="orderList/js/D210" />
+     <file-mapping path="/orderList/js/D211" page="orderList/js/D211" />
+     <file-mapping path="/orderList/js/D212" page="orderList/js/D212" />
+     <file-mapping path="/orderList/js/D230" page="orderList/js/D230" />
      <file-mapping path="/orderList/js/D310" page="orderList/js/D310" />
     
 	<file-mapping path="/orderList/js/D110" page="orderList/js/D110" >
