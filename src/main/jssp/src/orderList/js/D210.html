@@ -2,12 +2,12 @@
 <html>
 <!-- ヘッド情報 -->
 <imart type="head">
-  <title>明細一覧</title>
+  <title>受注明細一覧</title>
 </imart>
 
 <!-- 画面タイトル -->
 <div class="imui-title">
-  <h1>明細一覧</h1>
+  <h1>受注明細一覧</h1>
 </div>
 
 <!-- 以下ツールバー -->
@@ -41,26 +41,22 @@
 			<tbody id = "tbody1">
 				<tr>
 			    	<th width="20%"><label>PRNo.</label></th>
-			    	<td><imart type="imuiTextbox" id="startYM" name="search" width="350px" disabled/></td>
+			    	<td><imart type="imuiTextbox" id="startYM" name="search" width="350px" disabled value="0000000011"/></td>
 				</tr>
 				<tr>
 			    	<th><label>受注No.</label></th>
-			    	<td><imart type="imuiTextbox" id="endYM" name="search" width="350px"　disabled/></td>
+			    	<td><imart type="imuiTextbox" id="endYM" name="search" width="350px"　disabled value="0000000222"/></td>
 				</tr>
 			    <tr>
 			      <th><label>主担当部署</label></th>
-			      <td><imart type="imuiTextbox" id="prno" name="search" width="350px" disabled  value="本受注"/></td>
+			      <td><imart type="imuiTextbox" id="prno" name="search" width="350px" disabled  value="DM1"/></td>
 			    </tr>
 			    <tr>
 			      <th><label>受注ステータス</label></th>
-			      <td><label></label>本受注</td>
+			      <td><imart type="imuiTextbox" id="status" name="search" width="350px" disabled  value="本受注"/></td>
 			    </tr>
 		    </tbody>
 			</table>
-		  <div class="align-R">
-			<imart type="imuiButton" value="予定工数登録" id="output" class="imui-medium-button" />
-			<imart type="imuiButton" value="月次売上確定" id="clear" class="imui-medium-button" />
-		  </div>
 		</form>
 	</div>
 	

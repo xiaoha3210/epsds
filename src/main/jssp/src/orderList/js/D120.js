@@ -12,7 +12,7 @@ function init(request) {
      {"col1":"order01", "col2":"pr4", "col3":"2020/4~2020/12","col4":"□□がんプロジェクト","col5":"受注終了","col6":"DM2","col7":"1,200,000","col8":""},
  ];
 	 $bind.data = "1,2,3,4,5,6,7,8";
-	 getdata();
+	 
 	 Debug.console("11111");
 }
 
