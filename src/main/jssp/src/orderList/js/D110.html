@@ -82,7 +82,7 @@
        </col>
        <col name="col5" caption="受注ステータス" />
        <col name="col6" caption="主担当部署" />
-       <col name="col7" caption="受注金額" />
+       <col name="col7" caption="受注金額" align="right"/>
      </cols>
    </imart>
  </div>
@@ -94,7 +94,7 @@
 
 $('#search').click(function() {
 	
-	('#form', rules, messages, undefined, function(error, element) {
+	imuiValidate('#form', rules, messages, undefined, function(error, element) {
 	      var td = $(element).parents('td:first');
 	      if (td.hasClass('error-placement-last')) {
 	          error.insertAfter(td.children(':last'));
