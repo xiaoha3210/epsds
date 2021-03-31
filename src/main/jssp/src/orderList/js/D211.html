@@ -53,7 +53,7 @@
 		</form>
 	</div>
 	
-	<imart type="imuiListTable" 　data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300">
+	<imart type="imuiListTable" 　data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300" onAfterEditCell="onAfterEditCell">
      <pager rowNum="10" rowList="1,5,10" />
      <cols>
 		<col name="col1" caption="明細No." width="60" />
@@ -62,10 +62,10 @@
        		<showLink baseLinkUrl="orderList/js/D212"/>
 		</col>
 		<col name="col4" caption="受注金額(円)" width="90" align="right"/>
-		<col name="col5" caption="外注費有無" width="80" />
-		<col name="col6" caption="予定外注費" width="120" editable="true"/>
-		<col name="col7" caption="予定外注費売上" width="120" editable="true"/>
-		<col name="col8" caption="予定工数（人日）" width="120" editable="true"/>
+		<col name="col5" caption="予定工数（人日）" width="120" editable="true"/>
+		<col name="col6" caption="外注費有無" width="100" />
+		<col name="col7" caption="予定外注費" width="120" editable="true"/>
+		<col name="col8" caption="予定外注費売上" width="120" editable="true"/>
 		<col name="col9" caption="コメント" width="160" editable="true"/>
      </cols>
    </imart>
@@ -80,6 +80,27 @@ $(function(){
 		  }
 	  });
 	});
+
+function radio() {
+	
+}
+
+
+function onAfterEditCell() {
+	$('input[name="col5"]').attr('onkeypress', 'onlyUint();');
+	$('input[name="col7"]').attr('onkeypress', 'onlyUint();');
+	$('input[name="col8"]').attr('onkeypress', 'onlyUint();');
+	$('input[name="col9"]').attr('onkeypress', 'onlyUint();');
+	
+}
+
+function onlyUint() {
+	 event.returnValue = /[\d]/.test(String.fromCharCode(event.keyCode));
+	}
+
+$('[name="radio1"]:radio').change( function() {
+	var aaa =$(this).val();
+  });
 
 </script>
 </html>

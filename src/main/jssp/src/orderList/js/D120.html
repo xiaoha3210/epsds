@@ -53,6 +53,10 @@
 			      <td><imart type="imuiTextbox" id="jyutyuno" name="search" width="350px" height="50px" /></td>
 			    </tr>
 			    <tr>
+			      <th><label>部署</label></th>
+			      <td><imart type="imuiTextbox" id="busyo" name="search" width="350px" height="50px" /></td>
+			    </tr>
+			    <tr>
 			      <th><label>売上調整有無</label></th>
 			      <td>
 			      	<imart type="imuiCheckbox" id="checkbox_1" name="checkbox" label="あり"  />
@@ -69,7 +73,7 @@
 		    </tbody>
 			</table>
 		  <div>
-			<imart type="imuiButton" value="CSV出力" id="output" class="imui-medium-button" onclick="outputClick()"/>
+			<imart type="imuiButton" value="出力" id="output" class="imui-medium-button" onclick="outputClick()"/>
 			<imart type="imuiButton" value="クリア" id="clear" class="imui-medium-button" onclick="clearClick()"/>
 		  </div>
 		  <imart type="input" hidden name="csvData" id="csvData"value=$bind.data/>
