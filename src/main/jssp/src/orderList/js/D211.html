@@ -58,11 +58,9 @@
      <cols>
 		<col name="col1" caption="明細No." width="60" />
 		<col name="col2" caption="明細内容" width="200"/>
-		<col name="col3" caption="按分" width="90" id="anfen">
-       		<showLink baseLinkUrl="orderList/js/D212"/>
-		</col>
+		<col name="col3" caption="按分" width="90"/>
 		<col name="col4" caption="受注金額(円)" width="90" align="right"/>
-		<col name="col5" caption="予定工数（人日）" width="120" editable="true"/>
+		<col name="col5" caption="予定工数（人日）" width="120" editable="true" />
 		<col name="col6" caption="外注費有無" width="100" />
 		<col name="col7" caption="予定外注費" width="120" editable="true"/>
 		<col name="col8" caption="予定外注費売上" width="120" editable="true"/>
@@ -71,36 +69,52 @@
    </imart>
  </div>
 <script>
-$(function(){
-	  $('a').click(function(){
-		  var alrt =  $(this).text();
-		  if (alrt == "なし"){
-			  imuiShowErrorMessage('該当案件の案分はないので、案分登録できません。', [], true, 0);
-			  return false;
-		  }
-	  });
-	});
-
-function radio() {
-	
-}
-
-
-function onAfterEditCell() {
+function onAfterEditCell(row,col) {
 	$('input[name="col5"]').attr('onkeypress', 'onlyUint();');
 	$('input[name="col7"]').attr('onkeypress', 'onlyUint();');
 	$('input[name="col8"]').attr('onkeypress', 'onlyUint();');
 	$('input[name="col9"]').attr('onkeypress', 'onlyUint();');
 	
+	var radio = "radio" + row;
+	var radioName = document.getElementsByName(radio);
+	for(var i = 0; i < radioName.length; i++){
+	      if(radioName[i].checked) {
+	    	  if(radioName[i].value =="2"){
+	    		  $("#"+ row +"_col5").attr('disabled', 'ture');
+	    		  $("#"+ row +"_col7").attr('disabled', 'ture');
+	    		  $("#"+ row +"_col8").attr('disabled', 'ture');
+	    		  $("#"+ row +"_col9").attr('disabled', 'ture');
+	    	  }
+	      }
+	    }
+}
+
+
+function func1() {
+	for (var j = 1; j <= $("#listtable").jqGrid("getRowData").length; j++) {
+		var radio = "radio" + j;
+		var radioName = document.getElementsByName(radio);
+		for(var i = 0; i < radioName.length; i++){
+		      if(radioName[i].checked) {
+		    	  if(radioName[i].value =="2"){
+		    		  $("#"+ j +"_col5").attr('disabled', 'ture');
+		    		  $("#"+ j +"_col7").attr('disabled', 'ture');
+		    		  $("#"+ j +"_col8").attr('disabled', 'ture');
+		    		  $("#"+ j +"_col9").attr('disabled', 'ture');
+		    	  } else {
+		    		  $("#"+ j +"_col5").removeAttr('disabled');
+		    		  $("#"+ j +"_col7").removeAttr('disabled');
+		    		  $("#"+ j +"_col8").removeAttr('disabled');
+		    		  $("#"+ j +"_col9").removeAttr('disabled');
+		    	  }
+		      }
+		    }
+	}
 }
 
 function onlyUint() {
 	 event.returnValue = /[\d]/.test(String.fromCharCode(event.keyCode));
 	}
-
-$('[name="radio1"]:radio').change( function() {
-	var aaa =$(this).val();
-  });
 
 </script>
 </html>
