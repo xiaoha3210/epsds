@@ -36,13 +36,17 @@
 			<tbody id = "tbody1">
 				<tr>
 			    	<th width="20%"><label>開始年月</label></th>
-			    	<td><imart type="imuiTextbox" id="startYM" name="search" width="350px" /></td>
-			    	<imart type="imuiCalendar" floatable="true" altField="#startYM" format="yyyy/MM" />
+			    	<td>
+			    		<imart type="imuiSelect" list=yearList />年　　　
+			    		<imart type="imuiSelect" list=monthList />月
+			    	</td>
 				</tr>
 				<tr>
 			    	<th><label>終了年月</label></th>
-			    	<td><imart type="imuiTextbox" id="endYM" name="search" width="350px"/></td>
-			    	<imart type="imuiCalendar" floatable="true" altField="#endYM" format="yyyy/MM" />
+			    	<td>
+			    		<imart type="imuiSelect" list=yearList />年　　　
+			    		<imart type="imuiSelect" list=monthList />月
+			    	</td>
 				</tr>
 			    <tr>
 			      <th><label>PRNo.</label></th>
@@ -108,7 +112,7 @@ function outputClick(){
 			        download.href = url;
 			        //download属性にファイル名を指定する
 			        download.download = filename;
-			        //作成したリンクをクリックしてダウンロードを実行する
+			        //作成だうしたリンクをクリックしてダウンロードを実行する
 			        download.click();
 			        //createObjectURLで作成したオブジェクトURLを開放する
 			        (window.URL || window.webkitURL).revokeObjectURL(url);
@@ -123,6 +127,5 @@ function clearClick(){
 	$('input[name="search"]').val("");
 	$('input[name="checkbox"]').prop('checked',false);
 }
-
 </script>
 </html>

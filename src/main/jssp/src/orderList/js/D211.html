@@ -54,7 +54,6 @@
 	</div>
 	
 	<imart type="imuiListTable" 　data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300" onAfterEditCell="onAfterEditCell">
-     <pager rowNum="10" rowList="1,5,10" />
      <cols>
 		<col name="col1" caption="明細No." width="60" />
 		<col name="col2" caption="明細内容" width="200"/>
@@ -80,10 +79,8 @@ function onAfterEditCell(row,col) {
 	for(var i = 0; i < radioName.length; i++){
 	      if(radioName[i].checked) {
 	    	  if(radioName[i].value =="2"){
-	    		  $("#"+ row +"_col5").attr('disabled', 'ture');
 	    		  $("#"+ row +"_col7").attr('disabled', 'ture');
 	    		  $("#"+ row +"_col8").attr('disabled', 'ture');
-	    		  $("#"+ row +"_col9").attr('disabled', 'ture');
 	    	  }
 	      }
 	    }
@@ -97,15 +94,11 @@ function func1() {
 		for(var i = 0; i < radioName.length; i++){
 		      if(radioName[i].checked) {
 		    	  if(radioName[i].value =="2"){
-		    		  $("#"+ j +"_col5").attr('disabled', 'ture');
 		    		  $("#"+ j +"_col7").attr('disabled', 'ture');
 		    		  $("#"+ j +"_col8").attr('disabled', 'ture');
-		    		  $("#"+ j +"_col9").attr('disabled', 'ture');
 		    	  } else {
-		    		  $("#"+ j +"_col5").removeAttr('disabled');
 		    		  $("#"+ j +"_col7").removeAttr('disabled');
 		    		  $("#"+ j +"_col8").removeAttr('disabled');
-		    		  $("#"+ j +"_col9").removeAttr('disabled');
 		    	  }
 		      }
 		    }
@@ -116,5 +109,10 @@ function onlyUint() {
 	 event.returnValue = /[\d]/.test(String.fromCharCode(event.keyCode));
 	}
 
+function openNew() {
+	
+	
+	window.open('./orderList/js/D212', null, null);
+}
 </script>
 </html>
