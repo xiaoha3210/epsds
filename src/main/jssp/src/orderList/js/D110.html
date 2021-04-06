@@ -54,9 +54,44 @@
 			    <tr>
 			      <th><label>受注ステータス</label></th>
 			      <td>
-			      	<imart type="imuiCheckbox" id="checkbox_1" name="checkbox" label="仮受注" value="1" />
-			        <imart type="imuiCheckbox" id="checkbox_2" name="checkbox" label="本受注" value="2" />
-			        <imart type="imuiCheckbox" id="checkbox_3" name="checkbox" label="受注終了" value="3" />
+			      	<imart type="imuiCheckbox" id="checkbox_11" name="checkbox" label="仮受注" value="11" />
+			        <imart type="imuiCheckbox" id="checkbox_12" name="checkbox" label="本受注" value="12" />
+			        <imart type="imuiCheckbox" id="checkbox_13" name="checkbox" label="受注終了" value="13" />
+			      </td>
+			    </tr>
+			    <tr>
+			      <th><label>進捗売上ステータス（予定工数）</label></th>
+			      <td>
+			      	<imart type="imuiCheckbox" id="checkbox_21" name="checkbox" label="予定工数未入力" value="21" />
+			        <imart type="imuiCheckbox" id="checkbox_22" name="checkbox" label="予定工数入力中" value="22" />
+			        <imart type="imuiCheckbox" id="checkbox_23" name="checkbox" label="予定工数確定済" value="23" />
+			        <imart type="imuiCheckbox" id="checkbox_24" name="checkbox" label="予定工数最終確定済" value="24" />
+			      </td>
+			      </tr>
+			      <tr>
+			      <th><label>進捗売上ステータス（売上）</label></th>
+			      <td>
+			      	<imart type="imuiCheckbox" id="checkbox_25" name="checkbox" label="売上未入力" value="25" />
+			        <imart type="imuiCheckbox" id="checkbox_26" name="checkbox" label="売上未入力（実績無し）" value="26" />
+			        <imart type="imuiCheckbox" id="checkbox_27" name="checkbox" label="売上入力中" value="27" />
+			        <imart type="imuiCheckbox" id="checkbox_26" name="checkbox" label="売上確定済" value="28" />
+			        <imart type="imuiCheckbox" id="checkbox_29" name="checkbox" label="売上最終確定済" value="29" />
+			        <imart type="imuiCheckbox" id="checkbox_30" name="checkbox" label="売上連携済" value="30" />
+			      </td>
+			    </tr>
+			      <tr>
+			      <th><label>担当課</label></th>
+			      <td>
+			      	<imart type="imuiCheckbox" id="checkbox_31" name="checkbox" label="1課" value="31" />
+			      	<imart type="imuiCheckbox" id="checkbox_32" name="checkbox" label="2課" value="32" />
+			      	<imart type="imuiCheckbox" id="checkbox_33" name="checkbox" label="3課" value="33" />
+			      	<imart type="imuiCheckbox" id="checkbox_34" name="checkbox" label="4課" value="34" />
+			      	<imart type="imuiCheckbox" id="checkbox_35" name="checkbox" label="5課" value="35" />
+			      	<imart type="imuiCheckbox" id="checkbox_36" name="checkbox" label="6課" value="36" />
+			      	<imart type="imuiCheckbox" id="checkbox_37" name="checkbox" label="7課" value="37" />
+			      	<imart type="imuiCheckbox" id="checkbox_38" name="checkbox" label="8課" value="38" />
+			      	<imart type="imuiCheckbox" id="checkbox_39" name="checkbox" label="9課" value="39" />
+			      	<imart type="imuiCheckbox" id="checkbox_40" name="checkbox" label="10課" value="40" />
 			      </td>
 			    </tr>
 		    </tbody>
@@ -83,13 +118,18 @@
        <col name="col5" caption="受注ステータス" />
        <col name="col6" caption="主担当部署" />
        <col name="col7" caption="受注金額" align="right"/>
+       <col name="col8" caption="ステータス（予定工数）" />
+       <col name="col9" caption="ステータス（売上）" />
+       <col name="col10" caption="担当課"/>
      </cols>
    </imart>
  </div>
+ 
 <imart type="head">
 <script src="ui/libs/jquery-validation-1.9.0/jquery.validate.js"></script>
 <imart type="imuiValidationRule" rule="validators/validator#init" rulesName="rules" messagesName="messages"/>
 </imart>
+
 <script>
 
 $('#search').click(function() {

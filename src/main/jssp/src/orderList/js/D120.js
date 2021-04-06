@@ -6,12 +6,12 @@ var $bind = {};
 var yearList = [
     {
         label: "",
-        value: "0"
+        value: "0",
+        selected: true
     },
     {
         label: "2021",
-        value: "2021",
-        selected: true
+        value: "2021"
     },
     {
         label: "2022",
@@ -54,7 +54,8 @@ var yearList = [
 var monthList = [
     {
         label: "",
-        value: "0"
+        value: "0",
+        selected: true
     },
     {
         label: "01",
@@ -70,8 +71,7 @@ var monthList = [
     },
     {
         label: "04",
-        value: "04",
-        selected: true
+        value: "04"
     },
     {
         label: "05",
