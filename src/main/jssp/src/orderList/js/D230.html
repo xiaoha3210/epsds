@@ -44,50 +44,91 @@
 			    	<th><label>受注No.</label></th>
 			    	<td><imart type="imuiTextbox" id="endYM" name="search" width="350px"　disabled value="0000000222"/></td>
 				</tr>
-				<tr>
-			    	<th width="20%"><label>部署</label></th>
-			    	<td><imart type="imuiTextbox" id="meisaiNo" name="search" width="350px" disabled value="DM1"/></td>
-				</tr>
-				<tr>
-			    	<th><label>受注ステータス</label></th>
-			    	<td><imart type="imuiTextbox" id="meisai" name="search" width="350px"　disabled value="本受注"/></td>
-				</tr>
-				<tr>
-			    	<th><label>売上年月</label></th>
-			    	<td><imart type="imuiTextbox" id="money" name="search" width="350px"　disabled value="2021年2月"/></td>
-				</tr>
+			    <tr>
+			      <th><label>主担当部署</label></th>
+			      <td><imart type="imuiTextbox" id="prno" name="search" width="350px" disabled  value="DM1"/></td>
+			    </tr>
+			    <tr>
+			      <th><label>受注ステータス</label></th>
+			      <td><imart type="imuiTextbox" id="status" name="search" width="350px" disabled  value="本受注"/></td>
+			    </tr>
 		    </tbody>
 			</table>
-			<div>
-				<imart type="imuiButton" value="一時保存" id="search" class="imui-medium-button" />
-				<imart type="imuiButton" value="確定" id="search" class="imui-medium-button" />
-		  	</div>
 		</form>
 	</div>
+	
 	<div class="imui-chapter-title">
 		<h2>明細一覧</h2>
 	</div>
-	<imart type="imuiListTable" 　data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300">
-     <pager rowNum="20" rowList="20,50,100" />
+	<imart type="imuiListTable" data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300">
+     <pager rowNum="10" rowList="1,5,10" />
      <cols>
-		<col name="col1" caption="明細No." width="60" >
-			<showLink baseLinkUrl="orderList/js/D310" />
-		</col>
-		<col name="col2" caption="明細内容" width="200"editable="true"/>]
+       <col name="col1" caption="明細No." width="60" >
+       	<!-- <showLink baseLinkUrl="orderList/js/D310" /> -->
+       </col>
+       <col name="col2" caption="明細内容" width="200"/>
+       <col name="col3" caption="受注金額" width="90"/>
+       <col name="col4" caption="前月までの売上確定済金額" width="90"/>
+       <col name="col5" caption="前月までの全体進捗度" width="80"/>
+       <col name="col6" caption="部署" width="40"/>
+       <col name="col7" caption="予定工数(人日)" width="100"/>
+       <col name="col8" caption="実績工数(人日)" width="120"/>
+       <col name="col9" caption="工数進捗度" width="70"/>
+       <col name="col10" caption="予定外注費売上" width="100"/>
+       <col name="col11" caption="予定外注費" width="100"/>
+       <col name="col12" caption="外注費" width="100"/>
+       <col name="col13" caption="外注費進捗度" width="100"/>
+       <col name="col14" caption="進捗度売上（理論値）" width="120"/>
+       <col name="col15" caption="進捗度売上（理論値）" width="120"/>
+       <col name="col16" caption="進捗度売上（報告値)" width="120"/>
+       <col name="col17" caption="売上調整値" width="120"/>
+       <col name="col18" caption="終了フラグ" width="120"/>
      </cols>
    </imart>
  </div>
+ 
+
 <script>
-$(document).ready(function(){
-	if ("1"=="1") {
-		var length = $("#listtable").jqGrid("getRowData").length;
-		for (let i = 0 ; i< length ; i++) {
-			
-		}
-	}
-	
-	
-});
+
+function outputClick(){
+	imuiConfirm('CSV出力します。よろしいですか？','確認',
+			function() {
+				// ファイル名作成
+				const filename = "帳票.csv";
+				// データを取得
+				const  data=$("#csvData").val();
+				// BOMを付与する（Excelでの文字化け対策）
+				const bom = new Uint8Array([0xef, 0xbb, 0xbf]);
+				// Blobでデータを作成する
+				const blob = new Blob([bom, data], { type: "text/csv" });
+				//IE10/11用(download属性が機能しないためmsSaveBlobを使用）
+			    if (window.navigator.msSaveBlob) {
+			        window.navigator.msSaveBlob(blob, filename);
+			    //その他ブラウザ
+			    } else {
+			        //BlobからオブジェクトURLを作成する
+			        const url = (window.URL || window.webkitURL).createObjectURL(blob);
+			        //ダウンロード用にリンクを作成する
+			        const download = document.createElement("a");
+			        //リンク先に上記で生成したURLを指定する
+			        download.href = url;
+			        //download属性にファイル名を指定する
+			        download.download = filename;
+			        //作成したリンクをクリックしてダウンロードを実行する
+			        download.click();
+			        //createObjectURLで作成したオブジェクトURLを開放する
+			        (window.URL || window.webkitURL).revokeObjectURL(url);
+			    }
+				},
+			$.noop,
+			true
+	);
+}
+
+function clearClick(){
+	$('input[name="search"]').val("");
+	$('input[name="checkbox"]').prop('checked',false);
+}
 
 </script>
 </html>
