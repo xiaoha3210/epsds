@@ -8,13 +8,13 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  |  | PRNo. |
-| order_number | nvarchar(255) |  | false |  |  | 受注No. |
+| project_number | nvarchar(255) |  | false | [sh_t_order_details](sh_t_order_details.md) |  | PRNo. |
+| order_number | nvarchar(255) |  | false | [sh_t_order_details](sh_t_order_details.md) |  | 受注No. |
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署コード |
 | project_name | nvarchar(1000) | (NULL) | true |  |  | 試験名 |
 | order_name | nvarchar(1000) | (NULL) | true |  |  | 受注名 |
-| order_status | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |
-| charge_division_cd | nvarchar(2) | (NULL) | true |  |  | 担当課コード |
+| order_status | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード:1仮受注、2本受注、3受注終了 |
+| charge_division_cd | nvarchar(2) | (NULL) | true |  |  | 担当課コード:0なし、1課、2課、3課、4課、5課、6課、7課、8課、9課、10課 |
 | department_cd | nvarchar(100) | (NULL) | true |  |  | 部署コード |
 | start_year | int | (NULL) | true |  |  | 開始年 |
 | start_month | int | (NULL) | true |  |  | 開始月 |
@@ -24,7 +24,7 @@
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
-| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ |
+| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:0未削除、1削除済 |
 
 ## Constraints
 

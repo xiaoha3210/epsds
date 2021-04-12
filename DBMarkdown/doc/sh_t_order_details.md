@@ -8,34 +8,35 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  |  | PRNo. |
-| order_number | nvarchar(255) |  | false |  |  | 受注No. |
-| detail_number | nvarchar(255) | (NULL) | true |  |  | 明細No. |
-| department_cd | nvarchar(100) | (NULL) | true |  |  | 部署コード |
+| project_number | nvarchar(255) |  | false | [sh_t_salses_saved](sh_t_salses_saved.md) [sh_t_progress_sales_info](sh_t_progress_sales_info.md) [sh_t_outsourcing_cost_info](sh_t_outsourcing_cost_info.md) [sh_t_actual_production_costs_info](sh_t_actual_production_costs_info.md) [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) [sh_t_plans_production_costs_saved](sh_t_plans_production_costs_saved.md) | [sh_t_order_list](sh_t_order_list.md) | PRNo. |
+| order_number | nvarchar(255) |  | false | [sh_t_salses_saved](sh_t_salses_saved.md) [sh_t_progress_sales_info](sh_t_progress_sales_info.md) [sh_t_outsourcing_cost_info](sh_t_outsourcing_cost_info.md) [sh_t_actual_production_costs_info](sh_t_actual_production_costs_info.md) [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) [sh_t_plans_production_costs_saved](sh_t_plans_production_costs_saved.md) | [sh_t_order_list](sh_t_order_list.md) | 受注No. |
+| detail_number | nvarchar(255) | (NULL) | false | [sh_t_salses_saved](sh_t_salses_saved.md) [sh_t_progress_sales_info](sh_t_progress_sales_info.md) [sh_t_outsourcing_cost_info](sh_t_outsourcing_cost_info.md) [sh_t_actual_production_costs_info](sh_t_actual_production_costs_info.md) [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) [sh_t_plans_production_costs_saved](sh_t_plans_production_costs_saved.md) |  | 明細No. |
+| department_cd | nvarchar(255) | (NULL) | false | [sh_t_salses_saved](sh_t_salses_saved.md) [sh_t_progress_sales_info](sh_t_progress_sales_info.md) [sh_t_outsourcing_cost_info](sh_t_outsourcing_cost_info.md) [sh_t_actual_production_costs_info](sh_t_actual_production_costs_info.md) [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) [sh_t_plans_production_costs_saved](sh_t_plans_production_costs_saved.md) |  | 部署コード |
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署コード |
 | details | nvarchar(1000) | (NULL) | true |  |  | 明細内容 |
 | order_amount | decimal | (NULL) | true |  |  | 受注金額 |
 | sales_confirmed_amount | numeric | (NULL) | true |  |  | 売上確定済金額 |
-| progress_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無 |
-| progress_sales_status_cd | nvarchar(2) | (NULL) | true |  |  | 進捗ステータスコード（売上） |
-| progress_plans_status_cd | nvarchar(2) | (NULL) | true |  |  | 進捗ステータスコード（予定工数） |
+| progress_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無:0なし、1あり |
+| progress_sales_status_cd | nvarchar(2) | (NULL) | true |  |  | 進捗ステータスコード（売上）:1予定工数未入力、2予定工数入力中、3予定工数確定済、4予定工数最終確定済 |
+| progress_plans_status_cd | nvarchar(2) | (NULL) | true |  |  | 進捗ステータスコード（予定工数）:1売上未入力、2売上未入力（実績無し）、3売上入力中、4売上確定済、5売上最終確定済、6売上連携済 |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
-| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ |
+| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:0未削除、1削除済 |
 
 ## Constraints
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| PK__sh_t_ord_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number ] |
+| PK__sh_t_ord_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd ] |
+| FK__sh_t_order_detai_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number) REFERENCES sh_t_order_list(project_number, order_number) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 
 | Name | Definition |
 | ---- | ---------- |
-| PK__sh_t_ord_* | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number ] |
+| PK__sh_t_ord_* | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd ] |
 
 ## Relations
 

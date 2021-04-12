@@ -8,10 +8,10 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  |  | PRNo. |
-| order_number | nvarchar(255) |  | false |  |  | 受注No. |
-| detail_number | nvarchar(255) |  | false |  |  | 明細No. |
-| department_cd | nvarchar(255) |  | false |  |  | 部署ID |
+| project_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | PRNo. |
+| order_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 受注No. |
+| detail_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 明細No. |
+| department_cd | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 部署ID |
 | year | int |  | false |  |  | 年 |
 | month | int |  | false |  |  | 月 |
 | actual_production_costs | decimal | (NULL) | true |  |  | 実績工数 |
@@ -19,13 +19,14 @@
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
-| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ |
+| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:0未削除、1削除済 |
 
 ## Constraints
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_act_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd, year, month ] |
+| FK__sh_t_actual_prod_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 
