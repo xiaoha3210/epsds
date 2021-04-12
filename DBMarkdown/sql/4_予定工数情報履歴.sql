@@ -14,6 +14,7 @@ CREATE TABLE [dbo].[sh_t_plans_production_costs_info_history] (
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
   , primary key (project_number,order_number,detail_number,department_cd,history_number)
+  , foreign key (project_number,order_number,detail_number,department_cd) REFERENCES sh_t_plans_production_costs_info (project_number,order_number,detail_number,department_cd)
 )
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定工数情報履歴',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'PRNo.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'project_number'
@@ -29,4 +30,4 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'作成者コ�
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'作成日時',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'create_date'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'更新者コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'record_user_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'更新日時',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'record_date'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'削除フラグ',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'delete_flag'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'削除フラグ:0未削除、1削除済',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'delete_flag'
