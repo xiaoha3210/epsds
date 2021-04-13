@@ -8,12 +8,12 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  |  | PRNo. |
-| order_number | nvarchar(255) |  | false |  |  | 受注No. |
-| detail_number | nvarchar(255) |  | false |  |  | 明細No. |
-| department_cd | nvarchar(100) |  | false |  |  | 部署コード |
+| project_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | PRNo. |
+| order_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 受注No. |
+| detail_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 明細No. |
+| department_cd | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 部署コード |
 | plans_produnction_costs | decimal | (NULL) | true |  |  | 予定工数 |
-| progress_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無 |
+| progress_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無:1なし、2あり |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |
 | plans_outsourcing_cost_sales | int | (NULL) | true |  |  | 予定外注費売上 |
 | comment | nvarchar(1000) | (NULL) | true |  |  | コメント |
@@ -21,13 +21,14 @@
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
-| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ |
+| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:1未削除、2削除済 |
 
 ## Constraints
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_pla_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd ] |
+| FK__sh_t_plans_produ_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 

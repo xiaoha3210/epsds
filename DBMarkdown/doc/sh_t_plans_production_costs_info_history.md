@@ -8,10 +8,10 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  |  | PRNo. |
-| order_number | nvarchar(255) |  | false |  |  | 受注No. |
-| detail_number | nvarchar(255) |  | false |  |  | 明細No. |
-| department_cd | nvarchar(255) |  | false |  |  | 部署ID |
+| project_number | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | PRNo. |
+| order_number | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 受注No. |
+| detail_number | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 明細No. |
+| department_cd | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 部署ID |
 | history_number | int |  | false |  |  | 履歴番号 |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |
 | plans_outsourcing_cost_sales | int | (NULL) | true |  |  | 予定外注費売上 |
@@ -21,13 +21,14 @@
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
-| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ |
+| delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:0未削除、1削除済 |
 
 ## Constraints
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_pla_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd, history_number ] |
+| FK__sh_t_plans_produ_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_plans_production_costs_info(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 
