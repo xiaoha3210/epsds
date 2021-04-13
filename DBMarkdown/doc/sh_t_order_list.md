@@ -14,7 +14,6 @@
 | project_name | nvarchar(1000) | (NULL) | true |  |  | 試験名 |
 | order_name | nvarchar(1000) | (NULL) | true |  |  | 受注名 |
 | order_status | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード:1仮受注、2本受注、3受注終了 |
-| charge_division_cd | nvarchar(2) | (NULL) | true |  |  | 担当課コード:0なし、1課、2課、3課、4課、5課、6課、7課、8課、9課、10課 |
 | department_cd | nvarchar(100) | (NULL) | true |  |  | 部署コード |
 | start_year | int | (NULL) | true |  |  | 開始年 |
 | start_month | int | (NULL) | true |  |  | 開始月 |
