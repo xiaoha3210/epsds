@@ -14,7 +14,7 @@
 | department_cd | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 部署コード |
 | sales_adjusted_change_flag | nvarchar(1) | ((0)) | true |  |  | 売上調有無:0なし、1あり |
 | sales_adjusted_value | numeric | (NULL) | true |  |  | 売上調整値 |
-| end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1終了済 |
+| end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
 | comment | nvarchar(1000) | (NULL) | true |  |  | コメント |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
