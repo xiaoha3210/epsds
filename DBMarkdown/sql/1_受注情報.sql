@@ -5,7 +5,6 @@ CREATE TABLE [dbo].[sh_t_order_list] (
   , [project_name] nvarchar(1000) default NULL
   , [order_name] nvarchar(1000) default NULL
   , [order_status] nvarchar(10) default NULL
-  , [department_cd] nvarchar(100) default NULL
   , [start_year] int default NULL
   , [start_month] int default NULL
   , [end_year] int default NULL
@@ -24,7 +23,6 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'主担当部�
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'試験名',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'project_name'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注名',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_name'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注ステータスコード:1仮受注、2本受注、3受注終了',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_status'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'部署コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'department_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'開始年',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'start_year'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'開始月',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'start_month'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'終了年',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'end_year'
