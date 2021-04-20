@@ -11,6 +11,7 @@ CREATE TABLE [dbo].[sh_t_order_details] (
   , [progress_sales_status_cd] nvarchar(2) default NULL
   , [progress_plans_status_cd] nvarchar(2) default NULL
   , [charge_division_cd] nvarchar(2) default NULL
+  , [contractor_cd] nvarchar(10) default NULL
   , [create_user_cd] nvarchar(10) default NULL
   , [create_date] datetime2 default NULL
   , [record_user_cd] nvarchar(10) default NULL
@@ -32,6 +33,7 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'外注費有�
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗ステータスコード（売上）:1予定工数未入力、2予定工数入力中、3予定工数確定済、4予定工数最終確定済',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'progress_sales_status_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗ステータスコード（予定工数）:1売上未入力、2売上未入力（実績無し）、3売上入力中、4売上確定済、5売上最終確定済、6売上連携済',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'progress_plans_status_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'担当課コード:0なし、1課、2課、3課、4課、5課、6課、7課、8課、9課、10課',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'charge_division_cd'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'契約先コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'contractor_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'作成者コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'create_user_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'作成日時',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'create_date'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'更新者コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_details',@level2type=N'COLUMN',@level2name=N'record_user_cd'
