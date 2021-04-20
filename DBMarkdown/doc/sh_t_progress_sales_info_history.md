@@ -24,7 +24,7 @@
 | progress_sales_theory | nvarchar(3) | (NULL) | true |  |  | 進捗度売上（理論値） |
 | progress_sales_report | nvarchar(3) | (NULL) | true |  |  | 進捗度売上（報告値) |
 | sales_amount | numeric | (NULL) | true |  |  | 売上金額 |
-| end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1終了済 |
+| end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
 | comment | nvarchar(1000) | (NULL) | true |  |  | コメント |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
