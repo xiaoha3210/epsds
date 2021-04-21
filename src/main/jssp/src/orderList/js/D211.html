@@ -52,7 +52,6 @@
 		  	</div>
 		</form>
 	</div>
-	
 	<imart type="imuiListTable" 　data=$bind.listtable id="listtable" shrinkToFit="false" viewRecords="true" height="300" onAfterEditCell="onAfterEditCell">
      <cols>
 		<col name="col1" caption="明細No." width="60" />
@@ -112,7 +111,33 @@ function onlyUint() {
 function openNew() {
 	
 	
-	window.open('./orderList/js/D212', null, null);
+	//window.open('./orderList/js/D212', null, null);
 }
+
+$('#clear').click(function() {
+	  // 確認ダイアログ表示
+	  imuiConfirm(
+	    '確認メッセージを表示します。', // メッセージ
+	    '登録確認',  // タイトル
+	  );
+	});
+	
+$('#search').click(function() {
+	$("<div>成功メッセージを表示します。</div>").imuiMessageDialog({
+		
+		iconType: 'info',
+	    title: '処理が正常に終了'
+	});
+	});
+
+$(function(){
+	  $('a').click(function(){
+		  var alrt =  $(this).text();
+		  if (alrt == "あり"){
+			  imuiShowSuccessMessage('成功メッセージを表示します。', [], true, 10);
+			  return false;
+		  }
+	  });
+	});
 </script>
 </html>
