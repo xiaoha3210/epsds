@@ -21,7 +21,7 @@ CREATE TABLE [dbo].[sh_t_progress_sales_info] (
   , [record_user_cd] nvarchar(10) default NULL
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
-  , primary key (project_number,order_number,detail_number,department_cd)
+  , primary key (project_number,order_number,detail_number,department_cd,year,month)
   , foreign key (project_number,order_number,detail_number,department_cd) REFERENCES sh_t_order_details (project_number,order_number,detail_number,department_cd)
 )
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗度売上情報',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info'
