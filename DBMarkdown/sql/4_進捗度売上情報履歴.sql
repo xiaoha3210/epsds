@@ -23,7 +23,7 @@ CREATE TABLE [dbo].[sh_t_progress_sales_info_history] (
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
   , primary key (project_number,order_number,detail_number,department_cd,history_number,year,month)
-  , foreign key (project_number,order_number,detail_number,department_cd) REFERENCES sh_t_progress_sales_info (project_number,order_number,detail_number,department_cd)
+  , foreign key (project_number,order_number,detail_number,department_cd,year,month) REFERENCES sh_t_progress_sales_info (project_number,order_number,detail_number,department_cd,year,month)
 )
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗度売上情報履歴',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'PRNo.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'project_number'
