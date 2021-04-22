@@ -13,8 +13,8 @@
 | detail_number | nvarchar(255) |  | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) | [sh_t_order_details](sh_t_order_details.md) | 明細No. |
 | department_cd | nvarchar(255) |  | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) | [sh_t_order_details](sh_t_order_details.md) | 部署コード |
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署コード |
-| year | int | (NULL) | true |  |  | 年 |
-| month | int | (NULL) | true |  |  | 月 |
+| year | int | (NULL) | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) |  | 年 |
+| month | int | (NULL) | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) |  | 月 |
 | overall_progress | nvarchar(3) | (NULL) | true |  |  | 全体進捗度 |
 | progress_manhour | nvarchar(3) | (NULL) | true |  |  | 工数進捗度 |
 | progress_cost_outsourcing | nvarchar(3) | (NULL) | true |  |  | 外注費進捗度 |
@@ -35,14 +35,14 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| PK__sh_t_pro_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd ] |
+| PK__sh_t_pro_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd, year, month ] |
 | FK__sh_t_progress_sa_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 
 | Name | Definition |
 | ---- | ---------- |
-| PK__sh_t_pro_* | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd ] |
+| PK__sh_t_pro_* | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd, year, month ] |
 
 ## Relations
 
