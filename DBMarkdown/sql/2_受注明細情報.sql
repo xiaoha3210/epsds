@@ -10,8 +10,7 @@ CREATE TABLE [dbo].[sh_t_order_details] (
   , [progress_cost_flag] nvarchar(1) default 0
   , [progress_sales_status_cd] nvarchar(2) default NULL
   , [progress_plans_status_cd] nvarchar(2) default NULL
-  , [charge_division_cd] nvarchar(2) default NULL
-  
+  , [charge_division_cd] nvarchar(2) default NULL  
   , [create_user_cd] nvarchar(10) default NULL
   , [create_date] datetime2 default NULL
   , [record_user_cd] nvarchar(10) default NULL
