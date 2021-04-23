@@ -39,8 +39,8 @@
 <text text-anchor="start" x="60.5" y="-356.9" font-family="Arial" font-size="14.00" fill="#000000">order_status_name </text>
 <text text-anchor="start" x="184.9796" y="-356.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
 <polygon fill="none" stroke="#000000" points="53.5,-315.5 53.5,-345.5 297.5,-345.5 297.5,-315.5 53.5,-315.5"/>
-<text text-anchor="start" x="60.5" y="-326.9" font-family="Arial" font-size="14.00" fill="#000000">contractor_cd </text>
-<text text-anchor="start" x="149.1886" y="-326.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<text text-anchor="start" x="60.5" y="-326.9" font-family="Arial" font-size="14.00" fill="#000000">contract_cd </text>
+<text text-anchor="start" x="136.7454" y="-326.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
 <polygon fill="none" stroke="#000000" points="53.5,-285.5 53.5,-315.5 297.5,-315.5 297.5,-285.5 53.5,-285.5"/>
 <text text-anchor="start" x="60.5" y="-296.9" font-family="Arial" font-size="14.00" fill="#000000">start_year </text>
 <text text-anchor="start" x="126.6234" y="-296.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>

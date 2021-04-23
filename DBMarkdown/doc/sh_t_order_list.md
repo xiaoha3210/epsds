@@ -15,7 +15,7 @@
 | order_name | nvarchar(1000) | (NULL) | true |  |  | 受注名 |
 | order_status | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード:1仮受注、2本受注、3受注終了 |
 | order_status_name | nvarchar(10) | (NULL) | true |  |  | 受注名ステータス:1仮受注、2本受注、3受注終了 |
-| contractor_cd | nvarchar(10) | (NULL) | true |  |  | 契約先コード |
+| contract_cd | nvarchar(10) | (NULL) | true |  |  | 契約先コード |
 | start_year | int | (NULL) | true |  |  | 開始年 |
 | start_month | int | (NULL) | true |  |  | 開始月 |
 | end_year | int | (NULL) | true |  |  | 終了年 |
