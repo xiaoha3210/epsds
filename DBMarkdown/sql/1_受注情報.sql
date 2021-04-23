@@ -6,7 +6,7 @@ CREATE TABLE [dbo].[sh_t_order_list] (
   , [order_name] nvarchar(1000) default NULL
   , [order_status] nvarchar(10) default NULL
   , [order_status_name] nvarchar(10) default NULL
-  , [contract_cd] nvarchar(10) default NULL
+  , [contractor_cd] nvarchar(10) default NULL
   , [start_year] int default NULL
   , [start_month] int default NULL
   , [end_year] int default NULL
@@ -26,7 +26,7 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'試験名',@le
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注名',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_name'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注ステータスコード:1仮受注、2本受注、3受注終了',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_status'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注名ステータス:1仮受注、2本受注、3受注終了',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_status_name'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'契約先コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'contract_cd'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'契約先コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'contractor_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'開始年',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'start_year'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'開始月',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'start_month'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'終了年',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'end_year'
