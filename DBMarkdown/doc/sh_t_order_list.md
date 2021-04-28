@@ -13,8 +13,8 @@
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署ID |
 | project_name | nvarchar(1000) | (NULL) | true |  |  | 試験名 |
 | order_name | nvarchar(1000) | (NULL) | true |  |  | 受注名 |
-| order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード:1仮受注、2本受注、3受注終了 |
-| order_status_name | nvarchar(10) | (NULL) | true |  |  | 受注名ステータス:1仮受注、2本受注、3受注終了 |
+| order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |
+| order_status_name | nvarchar(10) | (NULL) | true |  |  | 受注名ステータス |
 | contract_cd | nvarchar(10) | (NULL) | true |  |  | 契約先コード |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
