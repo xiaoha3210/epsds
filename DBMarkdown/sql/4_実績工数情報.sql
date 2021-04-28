@@ -2,7 +2,7 @@ CREATE TABLE [dbo].[sh_t_actual_production_costs_info] (
   [project_number] nvarchar(255) not null
   , [order_number] nvarchar(255) not null
   , [detail_number] nvarchar(255) not null
-  , [department_cd] nvarchar(255) not null
+  , [department_cd] nvarchar(100) not null
   , [year] int not null
   , [month] int not null
   , [actual_production_costs] decimal(5,2) default NULL
@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[sh_t_actual_production_costs_info] (
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
   , primary key (project_number,order_number,detail_number,department_cd,year,month)
-  , foreign key (project_number,order_number,detail_number,department_cd) REFERENCES sh_t_order_details (project_number,order_number,detail_number,department_cd)
+  , foreign key (project_number,order_number,detail_number,department_cd) REFERENCES sh_t_order_department_details(project_number,order_number,detail_number,department_cd)
 )
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'実績工数情報',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_actual_production_costs_info'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'PRNo.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_actual_production_costs_info',@level2type=N'COLUMN',@level2name=N'project_number'

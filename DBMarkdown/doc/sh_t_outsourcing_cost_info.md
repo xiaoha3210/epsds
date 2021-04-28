@@ -8,10 +8,10 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | PRNo. |
-| order_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 受注No. |
-| detail_number | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 明細No. |
-| department_cd | nvarchar(255) |  | false |  | [sh_t_order_details](sh_t_order_details.md) | 部署ID |
+| project_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | PRNo. |
+| order_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 受注No. |
+| detail_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
+| department_cd | nvarchar(100) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
 | year | int |  | false |  |  | 年 |
 | month | int |  | false |  |  | 月 |
 | outsourcing_cost | int | (NULL) | true |  |  | 外注費 |
@@ -26,7 +26,7 @@
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_out_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd, year, month ] |
-| FK__sh_t_outsourcing_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
+| FK__sh_t_outsourcing_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_department_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 
