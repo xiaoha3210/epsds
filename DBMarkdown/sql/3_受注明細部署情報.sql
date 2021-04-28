@@ -4,7 +4,6 @@ CREATE TABLE [dbo].[sh_t_order_department_details] (
   , [detail_number] nvarchar(255) default NULL
   , [department_cd] nvarchar(100) default NULL
   , [main_department_cd] nvarchar(100) default NULL
-  , [details] nvarchar(1000) default NULL
   , [order_amount] int default NULL
   , [sales_confirmed_amount] int default NULL
   , [progress_sales_status_cd] nvarchar(2) default 1
@@ -24,7 +23,6 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注No.',@le
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'明細No.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'detail_number'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'部署ID',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'department_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'主担当部署ID',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'main_department_cd'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'明細内容',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'details'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注金額',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'order_amount'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'売上確定済金額',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'sales_confirmed_amount'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗ステータスコード（売上）:1売上未入力、2売上未入力（実績無し）、3売上入力中、4売上確定済、5売上最終確定済、6売上連携済',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'progress_sales_status_cd'
