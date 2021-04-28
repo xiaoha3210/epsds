@@ -7,9 +7,9 @@ CREATE TABLE [dbo].[sh_t_progress_sales_info_history] (
   , [main_department_cd] nvarchar(100) default NULL
   , [year] int default NULL
   , [month] int default NULL
-  , [overall_progress] nvarchar(3) default NULL
-  , [progress_manhour] nvarchar(3) default NULL
-  , [progress_cost_outsourcing] nvarchar(3) default NULL
+  , [overall_progress] decimal(5,2) default NULL
+  , [progress_manhour] decimal(5,2) default NULL
+  , [progress_cost_outsourcing] decimal(5,2) default NULL
   , [sales_adjusted_change_flag] nvarchar(1) default NULL
   , [sales_adjusted_value] int default NULL
   , [progress_sales_theory] int default NULL

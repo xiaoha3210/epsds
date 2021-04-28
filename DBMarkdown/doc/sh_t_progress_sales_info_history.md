@@ -16,9 +16,9 @@
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署ID |
 | year | int | (NULL) | false |  | [sh_t_progress_sales_info](sh_t_progress_sales_info.md) | 年 |
 | month | int | (NULL) | false |  | [sh_t_progress_sales_info](sh_t_progress_sales_info.md) | 月 |
-| overall_progress | nvarchar(3) | (NULL) | true |  |  | 全体進捗度 |
-| progress_manhour | nvarchar(3) | (NULL) | true |  |  | 工数進捗度 |
-| progress_cost_outsourcing | nvarchar(3) | (NULL) | true |  |  | 外注費進捗度 |
+| overall_progress | decimal | (NULL) | true |  |  | 全体進捗度 |
+| progress_manhour | decimal | (NULL) | true |  |  | 工数進捗度 |
+| progress_cost_outsourcing | decimal | (NULL) | true |  |  | 外注費進捗度 |
 | sales_adjusted_change_flag | nvarchar(1) | (NULL) | true |  |  | 売上調整有無:0なし、1あり |
 | sales_adjusted_value | int | (NULL) | true |  |  | 売上調整値 |
 | progress_sales_theory | int | (NULL) | true |  |  | 進捗度売上（理論値） |

@@ -43,13 +43,13 @@
 <text text-anchor="start" x="96.2896" y="-1263.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-1222.5 46.5,-1252.5 429.5,-1252.5 429.5,-1222.5 46.5,-1222.5"/>
 <text text-anchor="start" x="53.5" y="-1233.9" font-family="Arial" font-size="14.00" fill="#000000">overall_progress </text>
-<text text-anchor="start" x="160.8464" y="-1233.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(3)]</text>
+<text text-anchor="start" x="160.8464" y="-1233.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-1192.5 46.5,-1222.5 429.5,-1222.5 429.5,-1192.5 46.5,-1192.5"/>
 <text text-anchor="start" x="53.5" y="-1203.9" font-family="Arial" font-size="14.00" fill="#000000">progress_manhour </text>
-<text text-anchor="start" x="174.859" y="-1203.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(3)]</text>
+<text text-anchor="start" x="174.859" y="-1203.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-1162.5 46.5,-1192.5 429.5,-1192.5 429.5,-1162.5 46.5,-1162.5"/>
 <text text-anchor="start" x="53.5" y="-1173.9" font-family="Arial" font-size="14.00" fill="#000000">progress_cost_outsourcing </text>
-<text text-anchor="start" x="225.434" y="-1173.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(3)]</text>
+<text text-anchor="start" x="225.434" y="-1173.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-1132.5 46.5,-1162.5 429.5,-1162.5 429.5,-1132.5 46.5,-1132.5"/>
 <text text-anchor="start" x="53.5" y="-1143.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_change_flag </text>
 <text text-anchor="start" x="234.7958" y="-1143.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
