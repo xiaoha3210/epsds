@@ -11,7 +11,7 @@
 | project_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | PRNo. |
 | order_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 受注No. |
 | detail_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
-| department_cd | nvarchar(100) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署コード |
+| department_cd | nvarchar(100) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
 | sales_adjusted_change_flag | nvarchar(1) | (NULL) | true |  |  | 売上調整有無:0なし、1あり |
 | sales_adjusted_value | int | (NULL) | true |  |  | 売上調整値 |
 | end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
