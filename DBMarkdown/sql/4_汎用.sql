@@ -1,5 +1,6 @@
 CREATE TABLE [dbo].[sh_t_general_purpose] (
   [page_number] nvarchar(255) not null
+  ,[purpose_cd] nvarchar(4) not null
   , [item_number] nvarchar(4) not null
   , [item_name] nvarchar(1000) default NULL
   , [item_description] nvarchar(1000) default NULL
@@ -8,10 +9,11 @@ CREATE TABLE [dbo].[sh_t_general_purpose] (
   , [record_user_cd] nvarchar(10) default NULL
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
-  , primary key (page_number,item_number)
+  , primary key (page_number,purpose_cd,item_number)
 )
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'汎用',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_general_purpose'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'画面CD',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_general_purpose',@level2type=N'COLUMN',@level2name=N'page_number'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'汎用CD',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_general_purpose',@level2type=N'COLUMN',@level2name=N'purpose_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'項目CD',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_general_purpose',@level2type=N'COLUMN',@level2name=N'item_number'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'項目名',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_general_purpose',@level2type=N'COLUMN',@level2name=N'item_name'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'項目説明',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_general_purpose',@level2type=N'COLUMN',@level2name=N'item_description'
