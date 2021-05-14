@@ -3,6 +3,7 @@ CREATE TABLE [dbo].[sh_t_order_list] (
   , [order_number] nvarchar(255) not null
   , [main_department_cd] nvarchar(100) default NULL
   , [project_name] nvarchar(1000) default NULL
+  , [project_short_name] nvarchar(1000) default NULL
   , [order_name] nvarchar(1000) default NULL
   , [order_status_cd] nvarchar(10) default NULL
   , [order_status_name] nvarchar(10) default NULL
@@ -19,6 +20,7 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'PRNo.',@level0
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注No.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_number'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'主担当部署ID',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'main_department_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'試験名',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'project_name'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'試験名略称',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'project_short_name'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注名',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_name'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注ステータスコード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_status_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注名ステータス',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_list',@level2type=N'COLUMN',@level2name=N'order_status_name'
