@@ -9,6 +9,7 @@
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
 | page_number | nvarchar(255) |  | false |  |  | 画面CD |
+| purpose_cd | nvarchar(4) |  | false |  |  | 汎用CD |
 | item_number | nvarchar(4) |  | false |  |  | 項目CD |
 | item_name | nvarchar(1000) | (NULL) | true |  |  | 項目名 |
 | item_description | nvarchar(1000) | (NULL) | true |  |  | 項目説明 |
@@ -22,13 +23,13 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| PK__sh_t_gen_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ page_number, item_number ] |
+| PK__sh_t_gen_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ page_number, purpose_cd, item_number ] |
 
 ## Indexes
 
 | Name | Definition |
 | ---- | ---------- |
-| PK__sh_t_gen_* | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ page_number, item_number ] |
+| PK__sh_t_gen_* | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ page_number, purpose_cd, item_number ] |
 
 ## Relations
 

@@ -12,6 +12,7 @@
 | order_number | nvarchar(255) |  | false | [sh_t_order_details](sh_t_order_details.md) |  | 受注No. |
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署ID |
 | project_name | nvarchar(1000) | (NULL) | true |  |  | 試験名 |
+| project_short_name | nvarchar(1000) | (NULL) | true |  |  | 試験名略称 |
 | order_name | nvarchar(1000) | (NULL) | true |  |  | 受注名 |
 | order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |
 | order_status_name | nvarchar(10) | (NULL) | true |  |  | 受注名ステータス |
