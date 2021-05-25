@@ -12,6 +12,7 @@
 | order_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 受注No. |
 | detail_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
 | department_cd | nvarchar(100) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
+| order_amount | int | (NULL) | true |  |  | 受注金額 |
 | plans_produnction_costs | decimal | (NULL) | true |  |  | 予定工数 |
 | outsourcing_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無:0なし、1あり |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |
