@@ -4,7 +4,7 @@ CREATE TABLE [dbo].[sh_t_plans_production_costs_saved] (
   , [detail_number] nvarchar(255) not null
   , [department_cd] nvarchar(100) not null
   , [order_amount] int default NULL
-  , [expected_days_total] int default NULL
+  , [expected_days_total] decimal(5,2) default NULL
   , [plans_produnction_costs] decimal(5,2) default NULL
   , [outsourcing_cost_flag] nvarchar(1) default 0
   , [plans_outsourcing_cost] int default NULL

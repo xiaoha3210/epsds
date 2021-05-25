@@ -4,7 +4,7 @@ CREATE TABLE [dbo].[sh_t_order_details] (
   , [detail_number] nvarchar(255) default NULL
   , [details] nvarchar(1000) default NULL
   , [order_amount_before_apportionment] int default NULL
-  , [expected_days_total] int default NULL
+  , [expected_days_total] decimal(5,2) default NULL
   , [create_user_cd] nvarchar(10) default NULL
   , [create_date] datetime2 default NULL
   , [record_user_cd] nvarchar(10) default NULL

@@ -86,7 +86,7 @@
 <text text-anchor="start" x="285.5897" y="-846.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="43,-805.5 43,-835.5 315,-835.5 315,-805.5 43,-805.5"/>
 <text text-anchor="start" x="50" y="-816.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
-<text text-anchor="start" x="182.2776" y="-816.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<text text-anchor="start" x="182.2776" y="-816.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="43,-775.5 43,-805.5 315,-805.5 315,-775.5 43,-775.5"/>
 <text text-anchor="start" x="50" y="-786.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
 <text text-anchor="start" x="150.3632" y="-786.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>

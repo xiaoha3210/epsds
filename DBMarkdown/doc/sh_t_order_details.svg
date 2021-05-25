@@ -34,7 +34,7 @@
 <text text-anchor="start" x="331.5897" y="-843.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="89,-802.5 89,-832.5 361,-832.5 361,-802.5 89,-802.5"/>
 <text text-anchor="start" x="96" y="-813.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
-<text text-anchor="start" x="228.2776" y="-813.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<text text-anchor="start" x="228.2776" y="-813.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="89,-772.5 89,-802.5 361,-802.5 361,-772.5 89,-772.5"/>
 <text text-anchor="start" x="96" y="-783.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
 <text text-anchor="start" x="196.3632" y="-783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>

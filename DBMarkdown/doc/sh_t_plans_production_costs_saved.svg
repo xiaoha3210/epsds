@@ -34,7 +34,7 @@
 <text text-anchor="start" x="144.5238" y="-1023.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-982.5 46.5,-1012.5 453.5,-1012.5 453.5,-982.5 46.5,-982.5"/>
 <text text-anchor="start" x="53.5" y="-993.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
-<text text-anchor="start" x="185.7776" y="-993.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<text text-anchor="start" x="185.7776" y="-993.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-952.5 46.5,-982.5 453.5,-982.5 453.5,-952.5 46.5,-952.5"/>
 <text text-anchor="start" x="53.5" y="-963.9" font-family="Arial" font-size="14.00" fill="#000000">plans_produnction_costs </text>
 <text text-anchor="start" x="212.2194" y="-963.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
