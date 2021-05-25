@@ -13,6 +13,7 @@
 | detail_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
 | department_cd | nvarchar(100) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
 | order_amount | int | (NULL) | true |  |  | 分割受注金額一時保存 |
+| expected_days_total | int | (NULL) | true |  |  | 予定工数(按分前) |
 | plans_produnction_costs | decimal | (NULL) | true |  |  | 予定工数 |
 | outsourcing_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無:0なし、1あり |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |
@@ -22,6 +23,7 @@
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
+| divide_flag | nvarchar(1) | ((0)) | true |  |  | 按分フラグ:0按分なし、1按分あり |
 | delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:1未削除、2削除済 |
 
 ## Constraints
