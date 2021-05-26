@@ -10,7 +10,7 @@ CREATE TABLE [dbo].[sh_t_order_details] (
   , [record_user_cd] nvarchar(10) default NULL
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
-  , [divide_flag] nvarchar(1) default 0
+  , [divide_flag] nvarchar(1) default NULL
   , primary key (project_number,order_number,detail_number)
   , foreign key (project_number,order_number) REFERENCES sh_t_order_list(project_number,order_number)
 )

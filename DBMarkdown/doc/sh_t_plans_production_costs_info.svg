@@ -30,8 +30,8 @@
 <text text-anchor="start" x="82.5" y="-963.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
 <text text-anchor="start" x="179.7538" y="-963.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
 <polygon fill="none" stroke="#000000" points="75.5,-922.5 75.5,-952.5 463.5,-952.5 463.5,-922.5 75.5,-922.5"/>
-<text text-anchor="start" x="82.5" y="-933.9" font-family="Arial" font-size="14.00" fill="#000000">plans_produnction_costs </text>
-<text text-anchor="start" x="241.2194" y="-933.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<text text-anchor="start" x="82.5" y="-933.9" font-family="Arial" font-size="14.00" fill="#000000">plans_production_costs </text>
+<text text-anchor="start" x="233.4368" y="-933.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="75.5,-892.5 75.5,-922.5 463.5,-922.5 463.5,-892.5 75.5,-892.5"/>
 <text text-anchor="start" x="82.5" y="-903.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost_flag </text>
 <text text-anchor="start" x="222.5448" y="-903.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
@@ -145,8 +145,8 @@
 <text text-anchor="start" x="50.5" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">history_number </text>
 <text text-anchor="start" x="150.8478" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="43.5,-1502.5 43.5,-1532.5 494.5,-1532.5 494.5,-1502.5 43.5,-1502.5"/>
-<text text-anchor="start" x="50.5" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">plans_produnction_costs </text>
-<text text-anchor="start" x="209.2194" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<text text-anchor="start" x="50.5" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">plans_production_costs </text>
+<text text-anchor="start" x="201.4368" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
 <polygon fill="none" stroke="#000000" points="43.5,-1472.5 43.5,-1502.5 494.5,-1502.5 494.5,-1472.5 43.5,-1472.5"/>
 <text text-anchor="start" x="50.5" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost_flag </text>
 <text text-anchor="start" x="190.5448" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>

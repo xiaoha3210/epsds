@@ -13,7 +13,7 @@
 | detail_number | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 明細No. |
 | department_cd | nvarchar(100) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 部署ID |
 | history_number | int |  | false |  |  | 履歴番号 |
-| plans_produnction_costs | decimal | (NULL) | true |  |  | 予定工数 |
+| plans_production_costs | decimal | (NULL) | true |  |  | 予定工数 |
 | outsourcing_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無:0なし、1あり |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |
 | plans_outsourcing_cost_sales | int | (NULL) | true |  |  | 予定外注費売上 |

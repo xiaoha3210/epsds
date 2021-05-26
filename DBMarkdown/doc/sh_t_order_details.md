@@ -19,7 +19,7 @@
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
 | delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:0未削除、1削除済 |
-| divide_flag | nvarchar(1) | ((0)) | true |  |  | 按分フラグ:0按分なし、1按分あり |
+| divide_flag | nvarchar(1) | (NULL) | true |  |  | 按分フラグ:0按分なし、1按分あり |
 
 ## Constraints
 
