@@ -10,6 +10,7 @@
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
 | project_number | nvarchar(255) |  | false | [sh_t_order_department_details](sh_t_order_department_details.md) | [sh_t_order_list](sh_t_order_list.md) | PRNo. |
 | order_number | nvarchar(255) |  | false | [sh_t_order_department_details](sh_t_order_department_details.md) | [sh_t_order_list](sh_t_order_list.md) | 受注No. |
+| sales_department_cd | nvarchar(100) | (NULL) | true |  |  | 売上部署ID |
 | detail_number | nvarchar(255) | (NULL) | false | [sh_t_order_department_details](sh_t_order_department_details.md) |  | 明細No. |
 | details | nvarchar(1000) | (NULL) | true |  |  | 明細内容 |
 | order_amount_before_apportionment | int | (NULL) | true |  |  | 受注金額(按分前) |
