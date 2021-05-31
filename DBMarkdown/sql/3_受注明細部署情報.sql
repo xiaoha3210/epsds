@@ -6,8 +6,8 @@ CREATE TABLE [dbo].[sh_t_order_department_details] (
   , [main_department_cd] nvarchar(100) default NULL
   , [order_amount] int default NULL
   , [sales_confirmed_amount] int default NULL
-  , [progress_sales_status_cd] nvarchar(2) default '1'
-  , [progress_plans_status_cd] nvarchar(2) default '1'
+  , [progress_sales_status_cd] nvarchar(2) default NULL
+  , [progress_plans_status_cd] nvarchar(2) default NULL
   , [charge_division_cd] nvarchar(2) default 0  
   , [create_user_cd] nvarchar(10) default NULL
   , [create_date] datetime2 default NULL
