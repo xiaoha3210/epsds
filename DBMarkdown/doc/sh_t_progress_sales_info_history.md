@@ -25,6 +25,8 @@
 | progress_sales_report | int | (NULL) | true |  |  | 進捗度売上（報告値) |
 | end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
 | comment | nvarchar(2000) | (NULL) | true |  |  | コメント |
+| order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |
+| order_status_name | nvarchar(10) | (NULL) | true |  |  | 受注名ステータス |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
