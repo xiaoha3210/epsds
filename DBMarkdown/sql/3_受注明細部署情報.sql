@@ -14,8 +14,6 @@ CREATE TABLE [dbo].[sh_t_order_department_details] (
   , [record_user_cd] nvarchar(10) default NULL
   , [record_date] datetime2 default NULL
   , [delete_flag] nvarchar(1) default 0
-  , [expected_days_record_counter] int default 0
-  , [sales_record_counter] int default 0
   , primary key (project_number,order_number,detail_number,department_cd)
   , foreign key (project_number,order_number,detail_number) REFERENCES sh_t_order_details(project_number,order_number,detail_number)
 )
@@ -35,5 +33,3 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'作成日時',
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'更新者コード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'record_user_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'更新日時',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'record_date'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'削除フラグ:0未削除、1削除済',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'delete_flag'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定工数記録カウンター',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'expected_days_record_counter'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'売上記録カウンター',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_order_department_details',@level2type=N'COLUMN',@level2name=N'sales_record_counter'
