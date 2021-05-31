@@ -6,7 +6,7 @@ CREATE TABLE [dbo].[sh_t_plans_production_costs_saved] (
   , [order_amount] int default NULL
   , [expected_days_total] decimal(5,2) default NULL
   , [plans_production_costs] decimal(5,2) default NULL
-  , [outsourcing_cost_flag] nvarchar(1) default 0
+  , [outsourcing_cost_flag] nvarchar(1) default '2'
   , [plans_outsourcing_cost] int default NULL
   , [plans_outsourcing_cost_sales] int default NULL
   , [comment] nvarchar(2000) default NULL
@@ -27,7 +27,7 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'部署ID',@lev
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'分割受注金額一時保存',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'order_amount'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定工数(按分前)',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'expected_days_total'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定工数',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'plans_production_costs'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'外注費有無:0なし、1あり',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'outsourcing_cost_flag'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'外注費有無:0なし、1あり、2未入力',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'outsourcing_cost_flag'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定外注費',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'plans_outsourcing_cost'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定外注費売上',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'plans_outsourcing_cost_sales'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'コメント',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_saved',@level2type=N'COLUMN',@level2name=N'comment'

@@ -12,8 +12,10 @@
 | order_number | nvarchar(255) |  | false | [sh_t_plans_production_costs_info_history](sh_t_plans_production_costs_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | 受注No. |
 | detail_number | nvarchar(255) |  | false | [sh_t_plans_production_costs_info_history](sh_t_plans_production_costs_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
 | department_cd | nvarchar(100) |  | false | [sh_t_plans_production_costs_info_history](sh_t_plans_production_costs_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
+| order_amount | int | (NULL) | true |  |  | 分割受注金額一時保存 |
+| expected_days_total | decimal | (NULL) | true |  |  | 予定工数(按分前) |
 | plans_production_costs | decimal | (NULL) | true |  |  | 予定工数 |
-| outsourcing_cost_flag | nvarchar(1) | ((0)) | true |  |  | 外注費有無:0なし、1あり |
+| outsourcing_cost_flag | nvarchar(1) | ('2') | true |  |  | 外注費有無:0なし、1あり、2未入力 |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |
 | plans_outsourcing_cost_sales | int | (NULL) | true |  |  | 予定外注費売上 |
 | comment | nvarchar(2000) | (NULL) | true |  |  | コメント |
@@ -21,6 +23,7 @@
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |
 | record_date | datetime2 | (NULL) | true |  |  | 更新日時 |
+| divide_flag | nvarchar(1) | (NULL) | true |  |  | 按分フラグ:0按分なし、1按分あり |
 | delete_flag | nvarchar(1) | ((0)) | true |  |  | 削除フラグ:0未削除、1削除済 |
 
 ## Constraints
