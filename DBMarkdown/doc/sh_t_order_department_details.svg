@@ -5,490 +5,490 @@
  -->
 <!-- Title: sh_t_order_department_details Pages: 1 -->
 <svg width="2732pt" height="1979pt"
- viewBox="0.00 0.00 2732.00 1979.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 2731.50 1979.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1975)">
 <title>sh_t_order_department_details</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1975 2728,-1975 2728,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1975 2727.5,-1975 2727.5,4 -4,4"/>
 <!-- sh_t_order_department_details -->
 <g id="node1" class="node">
 <title>sh_t_order_department_details</title>
-<polygon fill="#efefef" stroke="transparent" points="1202,-1042.5 1202,-1077.5 1566,-1077.5 1566,-1042.5 1202,-1042.5"/>
-<polygon fill="none" stroke="#000000" points="1202,-1042.5 1202,-1077.5 1566,-1077.5 1566,-1042.5 1202,-1042.5"/>
-<text text-anchor="start" x="1208.5071" y="-1055.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_order_department_details</text>
-<text text-anchor="start" x="1457.5785" y="-1055.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="1461.4691" y="-1055.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="1202,-1012.5 1202,-1042.5 1566,-1042.5 1566,-1012.5 1202,-1012.5"/>
-<text text-anchor="start" x="1209" y="-1023.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="1310.1304" y="-1023.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-982.5 1202,-1012.5 1566,-1012.5 1566,-982.5 1202,-982.5"/>
-<text text-anchor="start" x="1209" y="-993.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="1300.7938" y="-993.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-952.5 1202,-982.5 1566,-982.5 1566,-952.5 1202,-952.5"/>
-<text text-anchor="start" x="1209" y="-963.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="1301.5764" y="-963.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-922.5 1202,-952.5 1566,-952.5 1566,-922.5 1202,-922.5"/>
-<text text-anchor="start" x="1209" y="-933.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="1306.2538" y="-933.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-892.5 1202,-922.5 1566,-922.5 1566,-892.5 1202,-892.5"/>
-<text text-anchor="start" x="1209" y="-903.9" font-family="Arial" font-size="14.00" fill="#000000">main_department_cd </text>
-<text text-anchor="start" x="1344.3688" y="-903.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-862.5 1202,-892.5 1566,-892.5 1566,-862.5 1202,-862.5"/>
-<text text-anchor="start" x="1209" y="-873.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount </text>
-<text text-anchor="start" x="1300.0238" y="-873.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1202,-832.5 1202,-862.5 1566,-862.5 1566,-832.5 1202,-832.5"/>
-<text text-anchor="start" x="1209" y="-843.9" font-family="Arial" font-size="14.00" fill="#000000">sales_confirmed_amount </text>
-<text text-anchor="start" x="1369.258" y="-843.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1202,-802.5 1202,-832.5 1566,-832.5 1566,-802.5 1202,-802.5"/>
-<text text-anchor="start" x="1209" y="-813.9" font-family="Arial" font-size="14.00" fill="#000000">progress_sales_status_cd </text>
-<text text-anchor="start" x="1375.4908" y="-813.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-772.5 1202,-802.5 1566,-802.5 1566,-772.5 1202,-772.5"/>
-<text text-anchor="start" x="1209" y="-783.9" font-family="Arial" font-size="14.00" fill="#000000">progress_plans_status_cd </text>
-<text text-anchor="start" x="1376.2734" y="-783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-742.5 1202,-772.5 1566,-772.5 1566,-742.5 1202,-742.5"/>
-<text text-anchor="start" x="1209" y="-753.9" font-family="Arial" font-size="14.00" fill="#000000">charge_division_cd </text>
-<text text-anchor="start" x="1332.697" y="-753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-712.5 1202,-742.5 1566,-742.5 1566,-712.5 1202,-712.5"/>
-<text text-anchor="start" x="1209" y="-723.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="1309.3632" y="-723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-682.5 1202,-712.5 1566,-712.5 1566,-682.5 1202,-682.5"/>
-<text text-anchor="start" x="1209" y="-693.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="1286.8106" y="-693.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1202,-652.5 1202,-682.5 1566,-682.5 1566,-652.5 1202,-652.5"/>
-<text text-anchor="start" x="1209" y="-663.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="1310.1332" y="-663.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1202,-622.5 1202,-652.5 1566,-652.5 1566,-622.5 1202,-622.5"/>
-<text text-anchor="start" x="1209" y="-633.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="1287.5806" y="-633.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1202,-592.5 1202,-622.5 1566,-622.5 1566,-592.5 1202,-592.5"/>
-<text text-anchor="start" x="1209" y="-603.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="1281.3632" y="-603.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" stroke-width="3" points="1200.5,-591.5 1200.5,-1079.5 1567.5,-1079.5 1567.5,-591.5 1200.5,-591.5"/>
+<polygon fill="#efefef" stroke="transparent" points="1241.5,-1042.5 1241.5,-1077.5 1605.5,-1077.5 1605.5,-1042.5 1241.5,-1042.5"/>
+<polygon fill="none" stroke="#000000" points="1241.5,-1042.5 1241.5,-1077.5 1605.5,-1077.5 1605.5,-1042.5 1241.5,-1042.5"/>
+<text text-anchor="start" x="1248.0071" y="-1055.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_order_department_details</text>
+<text text-anchor="start" x="1497.0785" y="-1055.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="1500.9691" y="-1055.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-1012.5 1241.5,-1042.5 1605.5,-1042.5 1605.5,-1012.5 1241.5,-1012.5"/>
+<text text-anchor="start" x="1248.5" y="-1023.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="1349.6304" y="-1023.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-982.5 1241.5,-1012.5 1605.5,-1012.5 1605.5,-982.5 1241.5,-982.5"/>
+<text text-anchor="start" x="1248.5" y="-993.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="1340.2938" y="-993.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-952.5 1241.5,-982.5 1605.5,-982.5 1605.5,-952.5 1241.5,-952.5"/>
+<text text-anchor="start" x="1248.5" y="-963.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="1341.0764" y="-963.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-922.5 1241.5,-952.5 1605.5,-952.5 1605.5,-922.5 1241.5,-922.5"/>
+<text text-anchor="start" x="1248.5" y="-933.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="1345.7538" y="-933.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-892.5 1241.5,-922.5 1605.5,-922.5 1605.5,-892.5 1241.5,-892.5"/>
+<text text-anchor="start" x="1248.5" y="-903.9" font-family="Arial" font-size="14.00" fill="#000000">main_department_cd </text>
+<text text-anchor="start" x="1383.8688" y="-903.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-862.5 1241.5,-892.5 1605.5,-892.5 1605.5,-862.5 1241.5,-862.5"/>
+<text text-anchor="start" x="1248.5" y="-873.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount </text>
+<text text-anchor="start" x="1339.5238" y="-873.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-832.5 1241.5,-862.5 1605.5,-862.5 1605.5,-832.5 1241.5,-832.5"/>
+<text text-anchor="start" x="1248.5" y="-843.9" font-family="Arial" font-size="14.00" fill="#000000">sales_confirmed_amount </text>
+<text text-anchor="start" x="1408.758" y="-843.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-802.5 1241.5,-832.5 1605.5,-832.5 1605.5,-802.5 1241.5,-802.5"/>
+<text text-anchor="start" x="1248.5" y="-813.9" font-family="Arial" font-size="14.00" fill="#000000">progress_sales_status_cd </text>
+<text text-anchor="start" x="1414.9908" y="-813.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-772.5 1241.5,-802.5 1605.5,-802.5 1605.5,-772.5 1241.5,-772.5"/>
+<text text-anchor="start" x="1248.5" y="-783.9" font-family="Arial" font-size="14.00" fill="#000000">progress_plans_status_cd </text>
+<text text-anchor="start" x="1415.7734" y="-783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-742.5 1241.5,-772.5 1605.5,-772.5 1605.5,-742.5 1241.5,-742.5"/>
+<text text-anchor="start" x="1248.5" y="-753.9" font-family="Arial" font-size="14.00" fill="#000000">charge_division_cd </text>
+<text text-anchor="start" x="1372.197" y="-753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-712.5 1241.5,-742.5 1605.5,-742.5 1605.5,-712.5 1241.5,-712.5"/>
+<text text-anchor="start" x="1248.5" y="-723.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="1348.8632" y="-723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-682.5 1241.5,-712.5 1605.5,-712.5 1605.5,-682.5 1241.5,-682.5"/>
+<text text-anchor="start" x="1248.5" y="-693.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="1326.3106" y="-693.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-652.5 1241.5,-682.5 1605.5,-682.5 1605.5,-652.5 1241.5,-652.5"/>
+<text text-anchor="start" x="1248.5" y="-663.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="1349.6332" y="-663.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-622.5 1241.5,-652.5 1605.5,-652.5 1605.5,-622.5 1241.5,-622.5"/>
+<text text-anchor="start" x="1248.5" y="-633.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="1327.0806" y="-633.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1241.5,-592.5 1241.5,-622.5 1605.5,-622.5 1605.5,-592.5 1241.5,-592.5"/>
+<text text-anchor="start" x="1248.5" y="-603.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="1320.8632" y="-603.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" stroke-width="3" points="1240,-591.5 1240,-1079.5 1607,-1079.5 1607,-591.5 1240,-591.5"/>
 </g>
 <!-- sh_t_order_details -->
 <g id="node2" class="node">
 <title>sh_t_order_details</title>
-<polygon fill="#efefef" stroke="transparent" points="1248,-432.5 1248,-467.5 1520,-467.5 1520,-432.5 1248,-432.5"/>
-<polygon fill="none" stroke="#000000" points="1248,-432.5 1248,-467.5 1520,-467.5 1520,-432.5 1248,-432.5"/>
-<text text-anchor="start" x="1259.0232" y="-445.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_order_details</text>
-<text text-anchor="start" x="1407.0624" y="-445.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="1410.953" y="-445.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="1248,-402.5 1248,-432.5 1520,-432.5 1520,-402.5 1248,-402.5"/>
-<text text-anchor="start" x="1255" y="-413.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="1356.1304" y="-413.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-372.5 1248,-402.5 1520,-402.5 1520,-372.5 1248,-372.5"/>
-<text text-anchor="start" x="1255" y="-383.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="1346.7938" y="-383.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-342.5 1248,-372.5 1520,-372.5 1520,-342.5 1248,-342.5"/>
-<text text-anchor="start" x="1255" y="-353.9" font-family="Arial" font-size="14.00" fill="#000000">sales_department_cd </text>
-<text text-anchor="start" x="1392.7082" y="-353.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-312.5 1248,-342.5 1520,-342.5 1520,-312.5 1248,-312.5"/>
-<text text-anchor="start" x="1255" y="-323.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="1347.5764" y="-323.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-282.5 1248,-312.5 1520,-312.5 1520,-282.5 1248,-282.5"/>
-<text text-anchor="start" x="1255" y="-293.9" font-family="Arial" font-size="14.00" fill="#000000">details </text>
-<text text-anchor="start" x="1299.3422" y="-293.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1000)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-252.5 1248,-282.5 1520,-282.5 1520,-252.5 1248,-252.5"/>
-<text text-anchor="start" x="1254.8493" y="-263.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount_before_apportionment </text>
-<text text-anchor="start" x="1490.5897" y="-263.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1248,-222.5 1248,-252.5 1520,-252.5 1520,-222.5 1248,-222.5"/>
-<text text-anchor="start" x="1255" y="-233.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
-<text text-anchor="start" x="1387.2776" y="-233.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="1248,-192.5 1248,-222.5 1520,-222.5 1520,-192.5 1248,-192.5"/>
-<text text-anchor="start" x="1255" y="-203.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="1355.3632" y="-203.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-162.5 1248,-192.5 1520,-192.5 1520,-162.5 1248,-162.5"/>
-<text text-anchor="start" x="1255" y="-173.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="1332.8106" y="-173.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1248,-132.5 1248,-162.5 1520,-162.5 1520,-132.5 1248,-132.5"/>
-<text text-anchor="start" x="1255" y="-143.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="1356.1332" y="-143.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-102.5 1248,-132.5 1520,-132.5 1520,-102.5 1248,-102.5"/>
-<text text-anchor="start" x="1255" y="-113.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="1333.5806" y="-113.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1248,-72.5 1248,-102.5 1520,-102.5 1520,-72.5 1248,-72.5"/>
-<text text-anchor="start" x="1255" y="-83.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="1327.3632" y="-83.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="1248,-42.5 1248,-72.5 1520,-72.5 1520,-42.5 1248,-42.5"/>
-<text text-anchor="start" x="1255" y="-53.9" font-family="Arial" font-size="14.00" fill="#000000">divide_flag </text>
-<text text-anchor="start" x="1325.7966" y="-53.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="#efefef" stroke="transparent" points="1287.5,-432.5 1287.5,-467.5 1559.5,-467.5 1559.5,-432.5 1287.5,-432.5"/>
+<polygon fill="none" stroke="#000000" points="1287.5,-432.5 1287.5,-467.5 1559.5,-467.5 1559.5,-432.5 1287.5,-432.5"/>
+<text text-anchor="start" x="1298.5232" y="-445.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_order_details</text>
+<text text-anchor="start" x="1446.5624" y="-445.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="1450.453" y="-445.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-402.5 1287.5,-432.5 1559.5,-432.5 1559.5,-402.5 1287.5,-402.5"/>
+<text text-anchor="start" x="1294.5" y="-413.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="1395.6304" y="-413.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-372.5 1287.5,-402.5 1559.5,-402.5 1559.5,-372.5 1287.5,-372.5"/>
+<text text-anchor="start" x="1294.5" y="-383.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="1386.2938" y="-383.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-342.5 1287.5,-372.5 1559.5,-372.5 1559.5,-342.5 1287.5,-342.5"/>
+<text text-anchor="start" x="1294.5" y="-353.9" font-family="Arial" font-size="14.00" fill="#000000">sales_department_cd </text>
+<text text-anchor="start" x="1432.2082" y="-353.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-312.5 1287.5,-342.5 1559.5,-342.5 1559.5,-312.5 1287.5,-312.5"/>
+<text text-anchor="start" x="1294.5" y="-323.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="1387.0764" y="-323.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-282.5 1287.5,-312.5 1559.5,-312.5 1559.5,-282.5 1287.5,-282.5"/>
+<text text-anchor="start" x="1294.5" y="-293.9" font-family="Arial" font-size="14.00" fill="#000000">details </text>
+<text text-anchor="start" x="1338.8422" y="-293.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1000)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-252.5 1287.5,-282.5 1559.5,-282.5 1559.5,-252.5 1287.5,-252.5"/>
+<text text-anchor="start" x="1294.3493" y="-263.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount_before_apportionment </text>
+<text text-anchor="start" x="1530.0897" y="-263.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-222.5 1287.5,-252.5 1559.5,-252.5 1559.5,-222.5 1287.5,-222.5"/>
+<text text-anchor="start" x="1294.5" y="-233.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
+<text text-anchor="start" x="1426.7776" y="-233.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-192.5 1287.5,-222.5 1559.5,-222.5 1559.5,-192.5 1287.5,-192.5"/>
+<text text-anchor="start" x="1294.5" y="-203.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="1394.8632" y="-203.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-162.5 1287.5,-192.5 1559.5,-192.5 1559.5,-162.5 1287.5,-162.5"/>
+<text text-anchor="start" x="1294.5" y="-173.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="1372.3106" y="-173.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-132.5 1287.5,-162.5 1559.5,-162.5 1559.5,-132.5 1287.5,-132.5"/>
+<text text-anchor="start" x="1294.5" y="-143.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="1395.6332" y="-143.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-102.5 1287.5,-132.5 1559.5,-132.5 1559.5,-102.5 1287.5,-102.5"/>
+<text text-anchor="start" x="1294.5" y="-113.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="1373.0806" y="-113.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-72.5 1287.5,-102.5 1559.5,-102.5 1559.5,-72.5 1287.5,-72.5"/>
+<text text-anchor="start" x="1294.5" y="-83.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="1366.8632" y="-83.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="1287.5,-42.5 1287.5,-72.5 1559.5,-72.5 1559.5,-42.5 1287.5,-42.5"/>
+<text text-anchor="start" x="1294.5" y="-53.9" font-family="Arial" font-size="14.00" fill="#000000">divide_flag </text>
+<text text-anchor="start" x="1365.2966" y="-53.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
 </g>
 <!-- sh_t_order_department_details&#45;&gt;sh_t_order_details -->
 <g id="edge1" class="edge">
 <title>sh_t_order_department_details:project_number&#45;&gt;sh_t_order_details:project_number</title>
-<path fill="none" stroke="#000000" d="M1576.2013,-1027.2076C1836.6765,-1012.11 1788.4293,-417.5 1520,-417.5"/>
-<polygon fill="#000000" stroke="#000000" points="1575.9959,-1027.2133 1565.871,-1023.0018 1570.9979,-1027.3567 1566,-1027.5 1566,-1027.5 1566,-1027.5 1570.9979,-1027.3567 1566.129,-1031.9982 1575.9959,-1027.2133 1575.9959,-1027.2133"/>
-</g>
-<!-- sh_t_plans_production_costs_info -->
-<g id="node3" class="node">
-<title>sh_t_plans_production_costs_info</title>
-<polygon fill="#efefef" stroke="transparent" points="43,-1802.5 43,-1837.5 431,-1837.5 431,-1802.5 43,-1802.5"/>
-<polygon fill="none" stroke="#000000" points="43,-1802.5 43,-1837.5 431,-1837.5 431,-1802.5 43,-1802.5"/>
-<text text-anchor="start" x="49.9952" y="-1815.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_plans_production_costs_info</text>
-<text text-anchor="start" x="322.0904" y="-1815.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="325.981" y="-1815.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="43,-1772.5 43,-1802.5 431,-1802.5 431,-1772.5 43,-1772.5"/>
-<text text-anchor="start" x="50" y="-1783.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="151.1304" y="-1783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1742.5 43,-1772.5 431,-1772.5 431,-1742.5 43,-1742.5"/>
-<text text-anchor="start" x="50" y="-1753.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="141.7938" y="-1753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1712.5 43,-1742.5 431,-1742.5 431,-1712.5 43,-1712.5"/>
-<text text-anchor="start" x="50" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="142.5764" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1682.5 43,-1712.5 431,-1712.5 431,-1682.5 43,-1682.5"/>
-<text text-anchor="start" x="50" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="147.2538" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1652.5 43,-1682.5 431,-1682.5 431,-1652.5 43,-1652.5"/>
-<text text-anchor="start" x="50" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount </text>
-<text text-anchor="start" x="141.0238" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="43,-1622.5 43,-1652.5 431,-1652.5 431,-1622.5 43,-1622.5"/>
-<text text-anchor="start" x="50" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
-<text text-anchor="start" x="182.2776" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="43,-1592.5 43,-1622.5 431,-1622.5 431,-1592.5 43,-1592.5"/>
-<text text-anchor="start" x="50" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">plans_production_costs </text>
-<text text-anchor="start" x="200.9368" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="43,-1562.5 43,-1592.5 431,-1592.5 431,-1562.5 43,-1562.5"/>
-<text text-anchor="start" x="50" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost_flag </text>
-<text text-anchor="start" x="190.0448" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1532.5 43,-1562.5 431,-1562.5 431,-1532.5 43,-1532.5"/>
-<text text-anchor="start" x="50" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost </text>
-<text text-anchor="start" x="200.9368" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="43,-1502.5 43,-1532.5 431,-1532.5 431,-1502.5 43,-1502.5"/>
-<text text-anchor="start" x="50" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost_sales </text>
-<text text-anchor="start" x="241.3912" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="43,-1472.5 43,-1502.5 431,-1502.5 431,-1472.5 43,-1472.5"/>
-<text text-anchor="start" x="50" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
-<text text-anchor="start" x="111.4502" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1442.5 43,-1472.5 431,-1472.5 431,-1442.5 43,-1442.5"/>
-<text text-anchor="start" x="50" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="150.3632" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1412.5 43,-1442.5 431,-1442.5 431,-1412.5 43,-1412.5"/>
-<text text-anchor="start" x="50" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="127.8106" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="43,-1382.5 43,-1412.5 431,-1412.5 431,-1382.5 43,-1382.5"/>
-<text text-anchor="start" x="50" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="151.1332" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1352.5 43,-1382.5 431,-1382.5 431,-1352.5 43,-1352.5"/>
-<text text-anchor="start" x="50" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="128.5806" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="43,-1322.5 43,-1352.5 431,-1352.5 431,-1322.5 43,-1322.5"/>
-<text text-anchor="start" x="50" y="-1333.9" font-family="Arial" font-size="14.00" fill="#000000">divide_flag </text>
-<text text-anchor="start" x="120.7966" y="-1333.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="43,-1292.5 43,-1322.5 431,-1322.5 431,-1292.5 43,-1292.5"/>
-<text text-anchor="start" x="50" y="-1303.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="122.3632" y="-1303.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-</g>
-<!-- sh_t_plans_production_costs_info&#45;&gt;sh_t_order_department_details -->
-<g id="edge2" class="edge">
-<title>sh_t_plans_production_costs_info:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
-<path fill="none" stroke="#000000" d="M440.3123,-1783.5108C494.8892,-1732.5349 438.3452,-1209.3376 483,-1160 592.0236,-1039.5435 1039.5318,-1027.5 1202,-1027.5"/>
-<polygon fill="#000000" stroke="#000000" points="440.1921,-1783.5622 429.228,-1783.3636 435.596,-1785.5311 431,-1787.5 431,-1787.5 431,-1787.5 435.596,-1785.5311 432.772,-1791.6364 440.1921,-1783.5622 440.1921,-1783.5622"/>
-</g>
-<!-- sh_t_plans_production_costs_saved -->
-<g id="node4" class="node">
-<title>sh_t_plans_production_costs_saved</title>
-<polygon fill="#efefef" stroke="transparent" points="536,-1802.5 536,-1837.5 943,-1837.5 943,-1802.5 536,-1802.5"/>
-<polygon fill="none" stroke="#000000" points="536,-1802.5 536,-1837.5 943,-1837.5 943,-1802.5 536,-1802.5"/>
-<text text-anchor="start" x="542.9903" y="-1815.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_plans_production_costs_saved</text>
-<text text-anchor="start" x="834.0953" y="-1815.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="837.9859" y="-1815.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="536,-1772.5 536,-1802.5 943,-1802.5 943,-1772.5 536,-1772.5"/>
-<text text-anchor="start" x="543" y="-1783.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="644.1304" y="-1783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1742.5 536,-1772.5 943,-1772.5 943,-1742.5 536,-1742.5"/>
-<text text-anchor="start" x="543" y="-1753.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="634.7938" y="-1753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1712.5 536,-1742.5 943,-1742.5 943,-1712.5 536,-1712.5"/>
-<text text-anchor="start" x="543" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="635.5764" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1682.5 536,-1712.5 943,-1712.5 943,-1682.5 536,-1682.5"/>
-<text text-anchor="start" x="543" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="640.2538" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1652.5 536,-1682.5 943,-1682.5 943,-1652.5 536,-1652.5"/>
-<text text-anchor="start" x="543" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount </text>
-<text text-anchor="start" x="634.0238" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="536,-1622.5 536,-1652.5 943,-1652.5 943,-1622.5 536,-1622.5"/>
-<text text-anchor="start" x="543" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
-<text text-anchor="start" x="675.2776" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="536,-1592.5 536,-1622.5 943,-1622.5 943,-1592.5 536,-1592.5"/>
-<text text-anchor="start" x="543" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">plans_production_costs </text>
-<text text-anchor="start" x="693.9368" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="536,-1562.5 536,-1592.5 943,-1592.5 943,-1562.5 536,-1562.5"/>
-<text text-anchor="start" x="543" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost_flag </text>
-<text text-anchor="start" x="683.0448" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1532.5 536,-1562.5 943,-1562.5 943,-1532.5 536,-1532.5"/>
-<text text-anchor="start" x="543" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost </text>
-<text text-anchor="start" x="693.9368" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="536,-1502.5 536,-1532.5 943,-1532.5 943,-1502.5 536,-1502.5"/>
-<text text-anchor="start" x="543" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost_sales </text>
-<text text-anchor="start" x="734.3912" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="536,-1472.5 536,-1502.5 943,-1502.5 943,-1472.5 536,-1472.5"/>
-<text text-anchor="start" x="543" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
-<text text-anchor="start" x="604.4502" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1442.5 536,-1472.5 943,-1472.5 943,-1442.5 536,-1442.5"/>
-<text text-anchor="start" x="543" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="643.3632" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1412.5 536,-1442.5 943,-1442.5 943,-1412.5 536,-1412.5"/>
-<text text-anchor="start" x="543" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="620.8106" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="536,-1382.5 536,-1412.5 943,-1412.5 943,-1382.5 536,-1382.5"/>
-<text text-anchor="start" x="543" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="644.1332" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1352.5 536,-1382.5 943,-1382.5 943,-1352.5 536,-1352.5"/>
-<text text-anchor="start" x="543" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="621.5806" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="536,-1322.5 536,-1352.5 943,-1352.5 943,-1322.5 536,-1322.5"/>
-<text text-anchor="start" x="543" y="-1333.9" font-family="Arial" font-size="14.00" fill="#000000">divide_flag </text>
-<text text-anchor="start" x="613.7966" y="-1333.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="536,-1292.5 536,-1322.5 943,-1322.5 943,-1292.5 536,-1292.5"/>
-<text text-anchor="start" x="543" y="-1303.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="615.3632" y="-1303.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-</g>
-<!-- sh_t_plans_production_costs_saved&#45;&gt;sh_t_order_department_details -->
-<g id="edge3" class="edge">
-<title>sh_t_plans_production_costs_saved:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
-<path fill="none" stroke="#000000" d="M952.3861,-1783.5656C1007.8975,-1733.2838 960.67,-1217.0062 995,-1160 1051.3524,-1066.4249 1092.7668,-1027.5 1202,-1027.5"/>
-<polygon fill="#000000" stroke="#000000" points="952.2226,-1783.6341 941.2604,-1783.3498 947.6113,-1785.5671 943,-1787.5 943,-1787.5 943,-1787.5 947.6113,-1785.5671 944.7396,-1791.6502 952.2226,-1783.6341 952.2226,-1783.6341"/>
-</g>
-<!-- sh_t_salses_saved -->
-<g id="node5" class="node">
-<title>sh_t_salses_saved</title>
-<polygon fill="#efefef" stroke="transparent" points="1047,-1742.5 1047,-1777.5 1321,-1777.5 1321,-1742.5 1047,-1742.5"/>
-<polygon fill="none" stroke="#000000" points="1047,-1742.5 1047,-1777.5 1321,-1777.5 1321,-1742.5 1047,-1742.5"/>
-<text text-anchor="start" x="1056.5167" y="-1755.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_salses_saved</text>
-<text text-anchor="start" x="1209.5689" y="-1755.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="1213.4595" y="-1755.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1712.5 1047,-1742.5 1321,-1742.5 1321,-1712.5 1047,-1712.5"/>
-<text text-anchor="start" x="1054" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="1155.1304" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1682.5 1047,-1712.5 1321,-1712.5 1321,-1682.5 1047,-1682.5"/>
-<text text-anchor="start" x="1054" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="1145.7938" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1652.5 1047,-1682.5 1321,-1682.5 1321,-1652.5 1047,-1652.5"/>
-<text text-anchor="start" x="1054" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="1146.5764" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1622.5 1047,-1652.5 1321,-1652.5 1321,-1622.5 1047,-1622.5"/>
-<text text-anchor="start" x="1054" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="1151.2538" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1592.5 1047,-1622.5 1321,-1622.5 1321,-1592.5 1047,-1592.5"/>
-<text text-anchor="start" x="1053.6838" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_change_flag </text>
-<text text-anchor="start" x="1234.9796" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1562.5 1047,-1592.5 1321,-1592.5 1321,-1562.5 1047,-1562.5"/>
-<text text-anchor="start" x="1054" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_value </text>
-<text text-anchor="start" x="1192.4922" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1532.5 1047,-1562.5 1321,-1562.5 1321,-1532.5 1047,-1532.5"/>
-<text text-anchor="start" x="1054" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">end_flag </text>
-<text text-anchor="start" x="1111.5834" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1502.5 1047,-1532.5 1321,-1532.5 1321,-1502.5 1047,-1502.5"/>
-<text text-anchor="start" x="1054" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
-<text text-anchor="start" x="1115.4502" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1472.5 1047,-1502.5 1321,-1502.5 1321,-1472.5 1047,-1472.5"/>
-<text text-anchor="start" x="1054" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="1154.3632" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1442.5 1047,-1472.5 1321,-1472.5 1321,-1442.5 1047,-1442.5"/>
-<text text-anchor="start" x="1054" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="1131.8106" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1412.5 1047,-1442.5 1321,-1442.5 1321,-1412.5 1047,-1412.5"/>
-<text text-anchor="start" x="1054" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="1155.1332" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1382.5 1047,-1412.5 1321,-1412.5 1321,-1382.5 1047,-1382.5"/>
-<text text-anchor="start" x="1054" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="1132.5806" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1047,-1352.5 1047,-1382.5 1321,-1382.5 1321,-1352.5 1047,-1352.5"/>
-<text text-anchor="start" x="1054" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="1126.3632" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-</g>
-<!-- sh_t_salses_saved&#45;&gt;sh_t_order_department_details -->
-<g id="edge4" class="edge">
-<title>sh_t_salses_saved:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
-<path fill="none" stroke="#000000" d="M1331.1542,-1726.0303C1408.6266,-1702.2049 1346.0303,-1395.5678 1321,-1310 1282.7499,-1179.2393 1065.7597,-1027.5 1202,-1027.5"/>
-<polygon fill="#000000" stroke="#000000" points="1330.8969,-1726.0675 1320.3554,-1723.0464 1325.9484,-1726.7837 1321,-1727.5 1321,-1727.5 1321,-1727.5 1325.9484,-1726.7837 1321.6446,-1731.9536 1330.8969,-1726.0675 1330.8969,-1726.0675"/>
-</g>
-<!-- sh_t_progress_sales_info -->
-<g id="node6" class="node">
-<title>sh_t_progress_sales_info</title>
-<polygon fill="#efefef" stroke="transparent" points="1425,-1892.5 1425,-1927.5 1745,-1927.5 1745,-1892.5 1425,-1892.5"/>
-<polygon fill="none" stroke="#000000" points="1425,-1892.5 1425,-1927.5 1745,-1927.5 1745,-1892.5 1425,-1892.5"/>
-<text text-anchor="start" x="1431.5139" y="-1905.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_progress_sales_info</text>
-<text text-anchor="start" x="1636.5717" y="-1905.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="1640.4623" y="-1905.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1862.5 1425,-1892.5 1745,-1892.5 1745,-1862.5 1425,-1862.5"/>
-<text text-anchor="start" x="1432" y="-1873.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="1533.1304" y="-1873.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1832.5 1425,-1862.5 1745,-1862.5 1745,-1832.5 1425,-1832.5"/>
-<text text-anchor="start" x="1432" y="-1843.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="1523.7938" y="-1843.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1802.5 1425,-1832.5 1745,-1832.5 1745,-1802.5 1425,-1802.5"/>
-<text text-anchor="start" x="1432" y="-1813.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="1524.5764" y="-1813.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1772.5 1425,-1802.5 1745,-1802.5 1745,-1772.5 1425,-1772.5"/>
-<text text-anchor="start" x="1432" y="-1783.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="1529.2538" y="-1783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1742.5 1425,-1772.5 1745,-1772.5 1745,-1742.5 1425,-1742.5"/>
-<text text-anchor="start" x="1432" y="-1753.9" font-family="Arial" font-size="14.00" fill="#000000">main_department_cd </text>
-<text text-anchor="start" x="1567.3688" y="-1753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1712.5 1425,-1742.5 1745,-1742.5 1745,-1712.5 1425,-1712.5"/>
-<text text-anchor="start" x="1432" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">year </text>
-<text text-anchor="start" x="1463.1164" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1682.5 1425,-1712.5 1745,-1712.5 1745,-1682.5 1425,-1682.5"/>
-<text text-anchor="start" x="1432" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">month </text>
-<text text-anchor="start" x="1474.7896" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1652.5 1425,-1682.5 1745,-1682.5 1745,-1652.5 1425,-1652.5"/>
-<text text-anchor="start" x="1432" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">overall_progress </text>
-<text text-anchor="start" x="1539.3464" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1622.5 1425,-1652.5 1745,-1652.5 1745,-1622.5 1425,-1622.5"/>
-<text text-anchor="start" x="1432" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">progress_manhour </text>
-<text text-anchor="start" x="1553.359" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1592.5 1425,-1622.5 1745,-1622.5 1745,-1592.5 1425,-1592.5"/>
-<text text-anchor="start" x="1432" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">progress_cost_outsourcing </text>
-<text text-anchor="start" x="1603.934" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1562.5 1425,-1592.5 1745,-1592.5 1745,-1562.5 1425,-1562.5"/>
-<text text-anchor="start" x="1432" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_change_flag </text>
-<text text-anchor="start" x="1613.2958" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1532.5 1425,-1562.5 1745,-1562.5 1745,-1532.5 1425,-1532.5"/>
-<text text-anchor="start" x="1432" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_value </text>
-<text text-anchor="start" x="1570.4922" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1502.5 1425,-1532.5 1745,-1532.5 1745,-1502.5 1425,-1502.5"/>
-<text text-anchor="start" x="1432" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">progress_sales_theory </text>
-<text text-anchor="start" x="1577.4782" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1472.5 1425,-1502.5 1745,-1502.5 1745,-1472.5 1425,-1472.5"/>
-<text text-anchor="start" x="1432" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">progress_sales_report </text>
-<text text-anchor="start" x="1575.1388" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1442.5 1425,-1472.5 1745,-1472.5 1745,-1442.5 1425,-1442.5"/>
-<text text-anchor="start" x="1432" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">end_flag </text>
-<text text-anchor="start" x="1489.5834" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1412.5 1425,-1442.5 1745,-1442.5 1745,-1412.5 1425,-1412.5"/>
-<text text-anchor="start" x="1432" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
-<text text-anchor="start" x="1493.4502" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1382.5 1425,-1412.5 1745,-1412.5 1745,-1382.5 1425,-1382.5"/>
-<text text-anchor="start" x="1432" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">order_status_cd </text>
-<text text-anchor="start" x="1536.2538" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1352.5 1425,-1382.5 1745,-1382.5 1745,-1352.5 1425,-1352.5"/>
-<text text-anchor="start" x="1432" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">order_status_name </text>
-<text text-anchor="start" x="1556.4796" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1322.5 1425,-1352.5 1745,-1352.5 1745,-1322.5 1425,-1322.5"/>
-<text text-anchor="start" x="1432" y="-1333.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="1532.3632" y="-1333.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1292.5 1425,-1322.5 1745,-1322.5 1745,-1292.5 1425,-1292.5"/>
-<text text-anchor="start" x="1432" y="-1303.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="1509.8106" y="-1303.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1262.5 1425,-1292.5 1745,-1292.5 1745,-1262.5 1425,-1262.5"/>
-<text text-anchor="start" x="1432" y="-1273.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="1533.1332" y="-1273.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1232.5 1425,-1262.5 1745,-1262.5 1745,-1232.5 1425,-1232.5"/>
-<text text-anchor="start" x="1432" y="-1243.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="1510.5806" y="-1243.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1425,-1202.5 1425,-1232.5 1745,-1232.5 1745,-1202.5 1425,-1202.5"/>
-<text text-anchor="start" x="1432" y="-1213.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="1504.3632" y="-1213.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
-</g>
-<!-- sh_t_progress_sales_info&#45;&gt;sh_t_order_department_details -->
-<g id="edge5" class="edge">
-<title>sh_t_progress_sales_info:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
-<path fill="none" stroke="#000000" d="M1415.3282,-1873.9734C1347.9595,-1822.3427 1378.1966,-1220.2546 1425,-1160 1464.6754,-1108.9219 1526.3246,-1175.0781 1566,-1124 1592.3098,-1090.1289 1608.8889,-1027.5 1566,-1027.5"/>
-<polygon fill="#000000" stroke="#000000" points="1415.6051,-1874.0743 1423.4584,-1881.7277 1420.3025,-1875.7871 1425,-1877.5 1425,-1877.5 1425,-1877.5 1420.3025,-1875.7871 1426.5416,-1873.2723 1415.6051,-1874.0743 1415.6051,-1874.0743"/>
+<path fill="none" stroke="#000000" d="M1615.7013,-1027.2076C1876.1765,-1012.11 1827.9293,-417.5 1559.5,-417.5"/>
+<polygon fill="#000000" stroke="#000000" points="1615.4959,-1027.2133 1605.371,-1023.0018 1610.4979,-1027.3567 1605.5,-1027.5 1605.5,-1027.5 1605.5,-1027.5 1610.4979,-1027.3567 1605.629,-1031.9982 1615.4959,-1027.2133 1615.4959,-1027.2133"/>
 </g>
 <!-- sh_t_actual_production_costs_info -->
-<g id="node7" class="node">
+<g id="node3" class="node">
 <title>sh_t_actual_production_costs_info</title>
-<polygon fill="#efefef" stroke="transparent" points="1850,-1727.5 1850,-1762.5 2243,-1762.5 2243,-1727.5 1850,-1727.5"/>
-<polygon fill="none" stroke="#000000" points="1850,-1727.5 1850,-1762.5 2243,-1762.5 2243,-1727.5 1850,-1727.5"/>
-<text text-anchor="start" x="1856.9941" y="-1740.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_actual_production_costs_info</text>
-<text text-anchor="start" x="2134.0915" y="-1740.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="2137.9821" y="-1740.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1697.5 1850,-1727.5 2243,-1727.5 2243,-1697.5 1850,-1697.5"/>
-<text text-anchor="start" x="1857" y="-1708.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="1958.1304" y="-1708.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1667.5 1850,-1697.5 2243,-1697.5 2243,-1667.5 1850,-1667.5"/>
-<text text-anchor="start" x="1857" y="-1678.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="1948.7938" y="-1678.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1637.5 1850,-1667.5 2243,-1667.5 2243,-1637.5 1850,-1637.5"/>
-<text text-anchor="start" x="1857" y="-1648.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="1949.5764" y="-1648.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1607.5 1850,-1637.5 2243,-1637.5 2243,-1607.5 1850,-1607.5"/>
-<text text-anchor="start" x="1857" y="-1618.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="1954.2538" y="-1618.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1577.5 1850,-1607.5 2243,-1607.5 2243,-1577.5 1850,-1577.5"/>
-<text text-anchor="start" x="1857" y="-1588.9" font-family="Arial" font-size="14.00" fill="#000000">year </text>
-<text text-anchor="start" x="1888.1164" y="-1588.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1547.5 1850,-1577.5 2243,-1577.5 2243,-1547.5 1850,-1547.5"/>
-<text text-anchor="start" x="1857" y="-1558.9" font-family="Arial" font-size="14.00" fill="#000000">month </text>
-<text text-anchor="start" x="1899.7896" y="-1558.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1517.5 1850,-1547.5 2243,-1547.5 2243,-1517.5 1850,-1517.5"/>
-<text text-anchor="start" x="1857" y="-1528.9" font-family="Arial" font-size="14.00" fill="#000000">actual_production_costs </text>
-<text text-anchor="start" x="2011.8274" y="-1528.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1487.5 1850,-1517.5 2243,-1517.5 2243,-1487.5 1850,-1487.5"/>
-<text text-anchor="start" x="1857" y="-1498.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="1957.3632" y="-1498.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1457.5 1850,-1487.5 2243,-1487.5 2243,-1457.5 1850,-1457.5"/>
-<text text-anchor="start" x="1857" y="-1468.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="1934.8106" y="-1468.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1427.5 1850,-1457.5 2243,-1457.5 2243,-1427.5 1850,-1427.5"/>
-<text text-anchor="start" x="1857" y="-1438.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="1958.1332" y="-1438.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1397.5 1850,-1427.5 2243,-1427.5 2243,-1397.5 1850,-1397.5"/>
-<text text-anchor="start" x="1857" y="-1408.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="1935.5806" y="-1408.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="1850,-1367.5 1850,-1397.5 2243,-1397.5 2243,-1367.5 1850,-1367.5"/>
-<text text-anchor="start" x="1857" y="-1378.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="1929.3632" y="-1378.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="#efefef" stroke="transparent" points="43.5,-1727.5 43.5,-1762.5 436.5,-1762.5 436.5,-1727.5 43.5,-1727.5"/>
+<polygon fill="none" stroke="#000000" points="43.5,-1727.5 43.5,-1762.5 436.5,-1762.5 436.5,-1727.5 43.5,-1727.5"/>
+<text text-anchor="start" x="50.4941" y="-1740.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_actual_production_costs_info</text>
+<text text-anchor="start" x="327.5915" y="-1740.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="331.4821" y="-1740.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1697.5 43.5,-1727.5 436.5,-1727.5 436.5,-1697.5 43.5,-1697.5"/>
+<text text-anchor="start" x="50.5" y="-1708.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="151.6304" y="-1708.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1667.5 43.5,-1697.5 436.5,-1697.5 436.5,-1667.5 43.5,-1667.5"/>
+<text text-anchor="start" x="50.5" y="-1678.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="142.2938" y="-1678.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1637.5 43.5,-1667.5 436.5,-1667.5 436.5,-1637.5 43.5,-1637.5"/>
+<text text-anchor="start" x="50.5" y="-1648.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="143.0764" y="-1648.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1607.5 43.5,-1637.5 436.5,-1637.5 436.5,-1607.5 43.5,-1607.5"/>
+<text text-anchor="start" x="50.5" y="-1618.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="147.7538" y="-1618.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1577.5 43.5,-1607.5 436.5,-1607.5 436.5,-1577.5 43.5,-1577.5"/>
+<text text-anchor="start" x="50.5" y="-1588.9" font-family="Arial" font-size="14.00" fill="#000000">year </text>
+<text text-anchor="start" x="81.6164" y="-1588.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1547.5 43.5,-1577.5 436.5,-1577.5 436.5,-1547.5 43.5,-1547.5"/>
+<text text-anchor="start" x="50.5" y="-1558.9" font-family="Arial" font-size="14.00" fill="#000000">month </text>
+<text text-anchor="start" x="93.2896" y="-1558.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1517.5 43.5,-1547.5 436.5,-1547.5 436.5,-1517.5 43.5,-1517.5"/>
+<text text-anchor="start" x="50.5" y="-1528.9" font-family="Arial" font-size="14.00" fill="#000000">actual_production_costs </text>
+<text text-anchor="start" x="205.3274" y="-1528.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1487.5 43.5,-1517.5 436.5,-1517.5 436.5,-1487.5 43.5,-1487.5"/>
+<text text-anchor="start" x="50.5" y="-1498.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="150.8632" y="-1498.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1457.5 43.5,-1487.5 436.5,-1487.5 436.5,-1457.5 43.5,-1457.5"/>
+<text text-anchor="start" x="50.5" y="-1468.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="128.3106" y="-1468.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1427.5 43.5,-1457.5 436.5,-1457.5 436.5,-1427.5 43.5,-1427.5"/>
+<text text-anchor="start" x="50.5" y="-1438.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="151.6332" y="-1438.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1397.5 43.5,-1427.5 436.5,-1427.5 436.5,-1397.5 43.5,-1397.5"/>
+<text text-anchor="start" x="50.5" y="-1408.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="129.0806" y="-1408.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="43.5,-1367.5 43.5,-1397.5 436.5,-1397.5 436.5,-1367.5 43.5,-1367.5"/>
+<text text-anchor="start" x="50.5" y="-1378.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="122.8632" y="-1378.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
 </g>
 <!-- sh_t_actual_production_costs_info&#45;&gt;sh_t_order_department_details -->
-<g id="edge6" class="edge">
+<g id="edge2" class="edge">
 <title>sh_t_actual_production_costs_info:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
-<path fill="none" stroke="#000000" d="M1840.7838,-1708.1632C1792.7078,-1659.0812 1828.5982,-1208.9921 1797,-1160 1732.8494,-1060.5362 1684.3569,-1027.5 1566,-1027.5"/>
-<polygon fill="#000000" stroke="#000000" points="1840.9517,-1708.2421 1848.084,-1716.5717 1845.4759,-1710.3711 1850,-1712.5 1850,-1712.5 1850,-1712.5 1845.4759,-1710.3711 1851.916,-1708.4283 1840.9517,-1708.2421 1840.9517,-1708.2421"/>
+<path fill="none" stroke="#000000" d="M446.6352,-1711.3317C550.9461,-1685.7561 407.3216,-1247.9769 488.5,-1160 603.7188,-1035.1319 1071.5959,-1027.5 1241.5,-1027.5"/>
+<polygon fill="#000000" stroke="#000000" points="446.4342,-1711.3548 435.9846,-1708.0296 441.4671,-1711.9274 436.5,-1712.5 436.5,-1712.5 436.5,-1712.5 441.4671,-1711.9274 437.0154,-1716.9704 446.4342,-1711.3548 446.4342,-1711.3548"/>
 </g>
 <!-- sh_t_outsourcing_cost_info -->
-<g id="node8" class="node">
+<g id="node4" class="node">
 <title>sh_t_outsourcing_cost_info</title>
-<polygon fill="#efefef" stroke="transparent" points="2347,-1727.5 2347,-1762.5 2681,-1762.5 2681,-1727.5 2347,-1727.5"/>
-<polygon fill="none" stroke="#000000" points="2347,-1727.5 2347,-1762.5 2681,-1762.5 2681,-1727.5 2347,-1727.5"/>
-<text text-anchor="start" x="2353.5047" y="-1740.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_outsourcing_cost_info</text>
-<text text-anchor="start" x="2572.5809" y="-1740.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="2576.4715" y="-1740.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1697.5 2347,-1727.5 2681,-1727.5 2681,-1697.5 2347,-1697.5"/>
-<text text-anchor="start" x="2354" y="-1708.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
-<text text-anchor="start" x="2455.1304" y="-1708.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1667.5 2347,-1697.5 2681,-1697.5 2681,-1667.5 2347,-1667.5"/>
-<text text-anchor="start" x="2354" y="-1678.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
-<text text-anchor="start" x="2445.7938" y="-1678.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1637.5 2347,-1667.5 2681,-1667.5 2681,-1637.5 2347,-1637.5"/>
-<text text-anchor="start" x="2354" y="-1648.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
-<text text-anchor="start" x="2446.5764" y="-1648.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1607.5 2347,-1637.5 2681,-1637.5 2681,-1607.5 2347,-1607.5"/>
-<text text-anchor="start" x="2354" y="-1618.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
-<text text-anchor="start" x="2451.2538" y="-1618.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1577.5 2347,-1607.5 2681,-1607.5 2681,-1577.5 2347,-1577.5"/>
-<text text-anchor="start" x="2354" y="-1588.9" font-family="Arial" font-size="14.00" fill="#000000">year </text>
-<text text-anchor="start" x="2385.1164" y="-1588.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1547.5 2347,-1577.5 2681,-1577.5 2681,-1547.5 2347,-1547.5"/>
-<text text-anchor="start" x="2354" y="-1558.9" font-family="Arial" font-size="14.00" fill="#000000">month </text>
-<text text-anchor="start" x="2396.7896" y="-1558.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1517.5 2347,-1547.5 2681,-1547.5 2681,-1517.5 2347,-1517.5"/>
-<text text-anchor="start" x="2354" y="-1528.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost </text>
-<text text-anchor="start" x="2463.6998" y="-1528.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1487.5 2347,-1517.5 2681,-1517.5 2681,-1487.5 2347,-1487.5"/>
-<text text-anchor="start" x="2354" y="-1498.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
-<text text-anchor="start" x="2454.3632" y="-1498.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1457.5 2347,-1487.5 2681,-1487.5 2681,-1457.5 2347,-1457.5"/>
-<text text-anchor="start" x="2354" y="-1468.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
-<text text-anchor="start" x="2431.8106" y="-1468.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1427.5 2347,-1457.5 2681,-1457.5 2681,-1427.5 2347,-1427.5"/>
-<text text-anchor="start" x="2354" y="-1438.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
-<text text-anchor="start" x="2455.1332" y="-1438.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1397.5 2347,-1427.5 2681,-1427.5 2681,-1397.5 2347,-1397.5"/>
-<text text-anchor="start" x="2354" y="-1408.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
-<text text-anchor="start" x="2432.5806" y="-1408.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
-<polygon fill="none" stroke="#000000" points="2347,-1367.5 2347,-1397.5 2681,-1397.5 2681,-1367.5 2347,-1367.5"/>
-<text text-anchor="start" x="2354" y="-1378.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
-<text text-anchor="start" x="2426.3632" y="-1378.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="#efefef" stroke="transparent" points="540.5,-1727.5 540.5,-1762.5 874.5,-1762.5 874.5,-1727.5 540.5,-1727.5"/>
+<polygon fill="none" stroke="#000000" points="540.5,-1727.5 540.5,-1762.5 874.5,-1762.5 874.5,-1727.5 540.5,-1727.5"/>
+<text text-anchor="start" x="547.0047" y="-1740.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_outsourcing_cost_info</text>
+<text text-anchor="start" x="766.0809" y="-1740.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="769.9715" y="-1740.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1697.5 540.5,-1727.5 874.5,-1727.5 874.5,-1697.5 540.5,-1697.5"/>
+<text text-anchor="start" x="547.5" y="-1708.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="648.6304" y="-1708.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1667.5 540.5,-1697.5 874.5,-1697.5 874.5,-1667.5 540.5,-1667.5"/>
+<text text-anchor="start" x="547.5" y="-1678.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="639.2938" y="-1678.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1637.5 540.5,-1667.5 874.5,-1667.5 874.5,-1637.5 540.5,-1637.5"/>
+<text text-anchor="start" x="547.5" y="-1648.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="640.0764" y="-1648.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1607.5 540.5,-1637.5 874.5,-1637.5 874.5,-1607.5 540.5,-1607.5"/>
+<text text-anchor="start" x="547.5" y="-1618.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="644.7538" y="-1618.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1577.5 540.5,-1607.5 874.5,-1607.5 874.5,-1577.5 540.5,-1577.5"/>
+<text text-anchor="start" x="547.5" y="-1588.9" font-family="Arial" font-size="14.00" fill="#000000">year </text>
+<text text-anchor="start" x="578.6164" y="-1588.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1547.5 540.5,-1577.5 874.5,-1577.5 874.5,-1547.5 540.5,-1547.5"/>
+<text text-anchor="start" x="547.5" y="-1558.9" font-family="Arial" font-size="14.00" fill="#000000">month </text>
+<text text-anchor="start" x="590.2896" y="-1558.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1517.5 540.5,-1547.5 874.5,-1547.5 874.5,-1517.5 540.5,-1517.5"/>
+<text text-anchor="start" x="547.5" y="-1528.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost </text>
+<text text-anchor="start" x="657.1998" y="-1528.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1487.5 540.5,-1517.5 874.5,-1517.5 874.5,-1487.5 540.5,-1487.5"/>
+<text text-anchor="start" x="547.5" y="-1498.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="647.8632" y="-1498.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1457.5 540.5,-1487.5 874.5,-1487.5 874.5,-1457.5 540.5,-1457.5"/>
+<text text-anchor="start" x="547.5" y="-1468.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="625.3106" y="-1468.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1427.5 540.5,-1457.5 874.5,-1457.5 874.5,-1427.5 540.5,-1427.5"/>
+<text text-anchor="start" x="547.5" y="-1438.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="648.6332" y="-1438.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1397.5 540.5,-1427.5 874.5,-1427.5 874.5,-1397.5 540.5,-1397.5"/>
+<text text-anchor="start" x="547.5" y="-1408.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="626.0806" y="-1408.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="540.5,-1367.5 540.5,-1397.5 874.5,-1397.5 874.5,-1367.5 540.5,-1367.5"/>
+<text text-anchor="start" x="547.5" y="-1378.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="619.8632" y="-1378.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
 </g>
 <!-- sh_t_outsourcing_cost_info&#45;&gt;sh_t_order_department_details -->
-<g id="edge7" class="edge">
+<g id="edge3" class="edge">
 <title>sh_t_outsourcing_cost_info:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
-<path fill="none" stroke="#000000" d="M2336.8642,-1711.3323C2232.5394,-1685.7694 2375.9312,-1248.2044 2295,-1160 2183.6815,-1038.6774 1730.6541,-1027.5 1566,-1027.5"/>
-<polygon fill="#000000" stroke="#000000" points="2337.0657,-1711.3554 2346.4849,-1716.9704 2342.0329,-1711.9277 2347,-1712.5 2347,-1712.5 2347,-1712.5 2342.0329,-1711.9277 2347.5151,-1708.0296 2337.0657,-1711.3554 2337.0657,-1711.3554"/>
+<path fill="none" stroke="#000000" d="M883.68,-1708.1452C931.3599,-1658.8619 892.0077,-1206.9871 926.5,-1160 1016.3766,-1037.5659 1089.6188,-1027.5 1241.5,-1027.5"/>
+<polygon fill="#000000" stroke="#000000" points="883.535,-1708.2139 872.5713,-1708.4343 879.0175,-1710.357 874.5,-1712.5 874.5,-1712.5 874.5,-1712.5 879.0175,-1710.357 876.4287,-1716.5657 883.535,-1708.2139 883.535,-1708.2139"/>
+</g>
+<!-- sh_t_plans_production_costs_info -->
+<g id="node5" class="node">
+<title>sh_t_plans_production_costs_info</title>
+<polygon fill="#efefef" stroke="transparent" points="978.5,-1802.5 978.5,-1837.5 1366.5,-1837.5 1366.5,-1802.5 978.5,-1802.5"/>
+<polygon fill="none" stroke="#000000" points="978.5,-1802.5 978.5,-1837.5 1366.5,-1837.5 1366.5,-1802.5 978.5,-1802.5"/>
+<text text-anchor="start" x="985.4952" y="-1815.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_plans_production_costs_info</text>
+<text text-anchor="start" x="1257.5904" y="-1815.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="1261.481" y="-1815.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1772.5 978.5,-1802.5 1366.5,-1802.5 1366.5,-1772.5 978.5,-1772.5"/>
+<text text-anchor="start" x="985.5" y="-1783.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="1086.6304" y="-1783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1742.5 978.5,-1772.5 1366.5,-1772.5 1366.5,-1742.5 978.5,-1742.5"/>
+<text text-anchor="start" x="985.5" y="-1753.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="1077.2938" y="-1753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1712.5 978.5,-1742.5 1366.5,-1742.5 1366.5,-1712.5 978.5,-1712.5"/>
+<text text-anchor="start" x="985.5" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="1078.0764" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1682.5 978.5,-1712.5 1366.5,-1712.5 1366.5,-1682.5 978.5,-1682.5"/>
+<text text-anchor="start" x="985.5" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="1082.7538" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1652.5 978.5,-1682.5 1366.5,-1682.5 1366.5,-1652.5 978.5,-1652.5"/>
+<text text-anchor="start" x="985.5" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount </text>
+<text text-anchor="start" x="1076.5238" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1622.5 978.5,-1652.5 1366.5,-1652.5 1366.5,-1622.5 978.5,-1622.5"/>
+<text text-anchor="start" x="985.5" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
+<text text-anchor="start" x="1117.7776" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1592.5 978.5,-1622.5 1366.5,-1622.5 1366.5,-1592.5 978.5,-1592.5"/>
+<text text-anchor="start" x="985.5" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">plans_production_costs </text>
+<text text-anchor="start" x="1136.4368" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1562.5 978.5,-1592.5 1366.5,-1592.5 1366.5,-1562.5 978.5,-1562.5"/>
+<text text-anchor="start" x="985.5" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost_flag </text>
+<text text-anchor="start" x="1125.5448" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1532.5 978.5,-1562.5 1366.5,-1562.5 1366.5,-1532.5 978.5,-1532.5"/>
+<text text-anchor="start" x="985.5" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost </text>
+<text text-anchor="start" x="1136.4368" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1502.5 978.5,-1532.5 1366.5,-1532.5 1366.5,-1502.5 978.5,-1502.5"/>
+<text text-anchor="start" x="985.5" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost_sales </text>
+<text text-anchor="start" x="1176.8912" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1472.5 978.5,-1502.5 1366.5,-1502.5 1366.5,-1472.5 978.5,-1472.5"/>
+<text text-anchor="start" x="985.5" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
+<text text-anchor="start" x="1046.9502" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1442.5 978.5,-1472.5 1366.5,-1472.5 1366.5,-1442.5 978.5,-1442.5"/>
+<text text-anchor="start" x="985.5" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="1085.8632" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1412.5 978.5,-1442.5 1366.5,-1442.5 1366.5,-1412.5 978.5,-1412.5"/>
+<text text-anchor="start" x="985.5" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="1063.3106" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1382.5 978.5,-1412.5 1366.5,-1412.5 1366.5,-1382.5 978.5,-1382.5"/>
+<text text-anchor="start" x="985.5" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="1086.6332" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1352.5 978.5,-1382.5 1366.5,-1382.5 1366.5,-1352.5 978.5,-1352.5"/>
+<text text-anchor="start" x="985.5" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="1064.0806" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1322.5 978.5,-1352.5 1366.5,-1352.5 1366.5,-1322.5 978.5,-1322.5"/>
+<text text-anchor="start" x="985.5" y="-1333.9" font-family="Arial" font-size="14.00" fill="#000000">divide_flag </text>
+<text text-anchor="start" x="1056.2966" y="-1333.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="978.5,-1292.5 978.5,-1322.5 1366.5,-1322.5 1366.5,-1292.5 978.5,-1292.5"/>
+<text text-anchor="start" x="985.5" y="-1303.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="1057.8632" y="-1303.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+</g>
+<!-- sh_t_plans_production_costs_info&#45;&gt;sh_t_order_department_details -->
+<g id="edge4" class="edge">
+<title>sh_t_plans_production_costs_info:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
+<path fill="none" stroke="#000000" d="M1375.7376,-1783.0236C1422.079,-1734.237 1387.9565,-1302.0938 1366.5,-1250 1336.4583,-1177.0623 1271.5417,-1196.9377 1241.5,-1124 1225.1661,-1084.3432 1198.6111,-1027.5 1241.5,-1027.5"/>
+<polygon fill="#000000" stroke="#000000" points="1375.4991,-1783.1391 1364.5376,-1783.4504 1370.9995,-1785.3195 1366.5,-1787.5 1366.5,-1787.5 1366.5,-1787.5 1370.9995,-1785.3195 1368.4624,-1791.5496 1375.4991,-1783.1391 1375.4991,-1783.1391"/>
+</g>
+<!-- sh_t_plans_production_costs_saved -->
+<g id="node6" class="node">
+<title>sh_t_plans_production_costs_saved</title>
+<polygon fill="#efefef" stroke="transparent" points="1471.5,-1802.5 1471.5,-1837.5 1878.5,-1837.5 1878.5,-1802.5 1471.5,-1802.5"/>
+<polygon fill="none" stroke="#000000" points="1471.5,-1802.5 1471.5,-1837.5 1878.5,-1837.5 1878.5,-1802.5 1471.5,-1802.5"/>
+<text text-anchor="start" x="1478.4903" y="-1815.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_plans_production_costs_saved</text>
+<text text-anchor="start" x="1769.5953" y="-1815.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="1773.4859" y="-1815.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1772.5 1471.5,-1802.5 1878.5,-1802.5 1878.5,-1772.5 1471.5,-1772.5"/>
+<text text-anchor="start" x="1478.5" y="-1783.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="1579.6304" y="-1783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1742.5 1471.5,-1772.5 1878.5,-1772.5 1878.5,-1742.5 1471.5,-1742.5"/>
+<text text-anchor="start" x="1478.5" y="-1753.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="1570.2938" y="-1753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1712.5 1471.5,-1742.5 1878.5,-1742.5 1878.5,-1712.5 1471.5,-1712.5"/>
+<text text-anchor="start" x="1478.5" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="1571.0764" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1682.5 1471.5,-1712.5 1878.5,-1712.5 1878.5,-1682.5 1471.5,-1682.5"/>
+<text text-anchor="start" x="1478.5" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="1575.7538" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1652.5 1471.5,-1682.5 1878.5,-1682.5 1878.5,-1652.5 1471.5,-1652.5"/>
+<text text-anchor="start" x="1478.5" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">order_amount </text>
+<text text-anchor="start" x="1569.5238" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1622.5 1471.5,-1652.5 1878.5,-1652.5 1878.5,-1622.5 1471.5,-1622.5"/>
+<text text-anchor="start" x="1478.5" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">expected_days_total </text>
+<text text-anchor="start" x="1610.7776" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1592.5 1471.5,-1622.5 1878.5,-1622.5 1878.5,-1592.5 1471.5,-1592.5"/>
+<text text-anchor="start" x="1478.5" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">plans_production_costs </text>
+<text text-anchor="start" x="1629.4368" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1562.5 1471.5,-1592.5 1878.5,-1592.5 1878.5,-1562.5 1471.5,-1562.5"/>
+<text text-anchor="start" x="1478.5" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">outsourcing_cost_flag </text>
+<text text-anchor="start" x="1618.5448" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1532.5 1471.5,-1562.5 1878.5,-1562.5 1878.5,-1532.5 1471.5,-1532.5"/>
+<text text-anchor="start" x="1478.5" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost </text>
+<text text-anchor="start" x="1629.4368" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1502.5 1471.5,-1532.5 1878.5,-1532.5 1878.5,-1502.5 1471.5,-1502.5"/>
+<text text-anchor="start" x="1478.5" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">plans_outsourcing_cost_sales </text>
+<text text-anchor="start" x="1669.8912" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1472.5 1471.5,-1502.5 1878.5,-1502.5 1878.5,-1472.5 1471.5,-1472.5"/>
+<text text-anchor="start" x="1478.5" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
+<text text-anchor="start" x="1539.9502" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1442.5 1471.5,-1472.5 1878.5,-1472.5 1878.5,-1442.5 1471.5,-1442.5"/>
+<text text-anchor="start" x="1478.5" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="1578.8632" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1412.5 1471.5,-1442.5 1878.5,-1442.5 1878.5,-1412.5 1471.5,-1412.5"/>
+<text text-anchor="start" x="1478.5" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="1556.3106" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1382.5 1471.5,-1412.5 1878.5,-1412.5 1878.5,-1382.5 1471.5,-1382.5"/>
+<text text-anchor="start" x="1478.5" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="1579.6332" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1352.5 1471.5,-1382.5 1878.5,-1382.5 1878.5,-1352.5 1471.5,-1352.5"/>
+<text text-anchor="start" x="1478.5" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="1557.0806" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1322.5 1471.5,-1352.5 1878.5,-1352.5 1878.5,-1322.5 1471.5,-1322.5"/>
+<text text-anchor="start" x="1478.5" y="-1333.9" font-family="Arial" font-size="14.00" fill="#000000">divide_flag </text>
+<text text-anchor="start" x="1549.2966" y="-1333.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="1471.5,-1292.5 1471.5,-1322.5 1878.5,-1322.5 1878.5,-1292.5 1471.5,-1292.5"/>
+<text text-anchor="start" x="1478.5" y="-1303.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="1550.8632" y="-1303.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+</g>
+<!-- sh_t_plans_production_costs_saved&#45;&gt;sh_t_order_department_details -->
+<g id="edge5" class="edge">
+<title>sh_t_plans_production_costs_saved:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
+<path fill="none" stroke="#000000" d="M1462.2537,-1783.0199C1415.8188,-1734.1938 1449.1419,-1301.7132 1471.5,-1250 1503.9417,-1174.964 1573.0583,-1199.036 1605.5,-1124 1622.5203,-1084.6329 1648.3889,-1027.5 1605.5,-1027.5"/>
+<polygon fill="#000000" stroke="#000000" points="1462.5007,-1783.1395 1469.5378,-1791.5497 1467.0004,-1785.3198 1471.5,-1787.5 1471.5,-1787.5 1471.5,-1787.5 1467.0004,-1785.3198 1473.4622,-1783.4503 1462.5007,-1783.1395 1462.5007,-1783.1395"/>
+</g>
+<!-- sh_t_salses_saved -->
+<g id="node7" class="node">
+<title>sh_t_salses_saved</title>
+<polygon fill="#efefef" stroke="transparent" points="1982.5,-1742.5 1982.5,-1777.5 2256.5,-1777.5 2256.5,-1742.5 1982.5,-1742.5"/>
+<polygon fill="none" stroke="#000000" points="1982.5,-1742.5 1982.5,-1777.5 2256.5,-1777.5 2256.5,-1742.5 1982.5,-1742.5"/>
+<text text-anchor="start" x="1992.0167" y="-1755.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_salses_saved</text>
+<text text-anchor="start" x="2145.0689" y="-1755.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="2148.9595" y="-1755.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1712.5 1982.5,-1742.5 2256.5,-1742.5 2256.5,-1712.5 1982.5,-1712.5"/>
+<text text-anchor="start" x="1989.5" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="2090.6304" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1682.5 1982.5,-1712.5 2256.5,-1712.5 2256.5,-1682.5 1982.5,-1682.5"/>
+<text text-anchor="start" x="1989.5" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="2081.2938" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1652.5 1982.5,-1682.5 2256.5,-1682.5 2256.5,-1652.5 1982.5,-1652.5"/>
+<text text-anchor="start" x="1989.5" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="2082.0764" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1622.5 1982.5,-1652.5 2256.5,-1652.5 2256.5,-1622.5 1982.5,-1622.5"/>
+<text text-anchor="start" x="1989.5" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="2086.7538" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1592.5 1982.5,-1622.5 2256.5,-1622.5 2256.5,-1592.5 1982.5,-1592.5"/>
+<text text-anchor="start" x="1989.1838" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_change_flag </text>
+<text text-anchor="start" x="2170.4796" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1562.5 1982.5,-1592.5 2256.5,-1592.5 2256.5,-1562.5 1982.5,-1562.5"/>
+<text text-anchor="start" x="1989.5" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_value </text>
+<text text-anchor="start" x="2127.9922" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1532.5 1982.5,-1562.5 2256.5,-1562.5 2256.5,-1532.5 1982.5,-1532.5"/>
+<text text-anchor="start" x="1989.5" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">end_flag </text>
+<text text-anchor="start" x="2047.0834" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1502.5 1982.5,-1532.5 2256.5,-1532.5 2256.5,-1502.5 1982.5,-1502.5"/>
+<text text-anchor="start" x="1989.5" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
+<text text-anchor="start" x="2050.9502" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1472.5 1982.5,-1502.5 2256.5,-1502.5 2256.5,-1472.5 1982.5,-1472.5"/>
+<text text-anchor="start" x="1989.5" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="2089.8632" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1442.5 1982.5,-1472.5 2256.5,-1472.5 2256.5,-1442.5 1982.5,-1442.5"/>
+<text text-anchor="start" x="1989.5" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="2067.3106" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1412.5 1982.5,-1442.5 2256.5,-1442.5 2256.5,-1412.5 1982.5,-1412.5"/>
+<text text-anchor="start" x="1989.5" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="2090.6332" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1382.5 1982.5,-1412.5 2256.5,-1412.5 2256.5,-1382.5 1982.5,-1382.5"/>
+<text text-anchor="start" x="1989.5" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="2068.0806" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="1982.5,-1352.5 1982.5,-1382.5 2256.5,-1382.5 2256.5,-1352.5 1982.5,-1352.5"/>
+<text text-anchor="start" x="1989.5" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="2061.8632" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+</g>
+<!-- sh_t_salses_saved&#45;&gt;sh_t_order_department_details -->
+<g id="edge6" class="edge">
+<title>sh_t_salses_saved:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
+<path fill="none" stroke="#000000" d="M1973.3906,-1723.334C1924.108,-1674.3081 1966.201,-1208.1987 1930.5,-1160 1837.6549,-1034.653 1761.4875,-1027.5 1605.5,-1027.5"/>
+<polygon fill="#000000" stroke="#000000" points="1973.4059,-1723.341 1980.6284,-1731.5924 1977.9529,-1725.4205 1982.5,-1727.5 1982.5,-1727.5 1982.5,-1727.5 1977.9529,-1725.4205 1984.3716,-1723.4076 1973.4059,-1723.341 1973.4059,-1723.341"/>
+</g>
+<!-- sh_t_progress_sales_info -->
+<g id="node8" class="node">
+<title>sh_t_progress_sales_info</title>
+<polygon fill="#efefef" stroke="transparent" points="2360.5,-1892.5 2360.5,-1927.5 2680.5,-1927.5 2680.5,-1892.5 2360.5,-1892.5"/>
+<polygon fill="none" stroke="#000000" points="2360.5,-1892.5 2360.5,-1927.5 2680.5,-1927.5 2680.5,-1892.5 2360.5,-1892.5"/>
+<text text-anchor="start" x="2367.0139" y="-1905.3" font-family="Arial Bold" font-size="18.00" fill="#000000">sh_t_progress_sales_info</text>
+<text text-anchor="start" x="2572.0717" y="-1905.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="2575.9623" y="-1905.3" font-family="Arial" font-size="14.00" fill="#666666">[BASIC TABLE]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1862.5 2360.5,-1892.5 2680.5,-1892.5 2680.5,-1862.5 2360.5,-1862.5"/>
+<text text-anchor="start" x="2367.5" y="-1873.9" font-family="Arial" font-size="14.00" fill="#000000">project_number </text>
+<text text-anchor="start" x="2468.6304" y="-1873.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1832.5 2360.5,-1862.5 2680.5,-1862.5 2680.5,-1832.5 2360.5,-1832.5"/>
+<text text-anchor="start" x="2367.5" y="-1843.9" font-family="Arial" font-size="14.00" fill="#000000">order_number </text>
+<text text-anchor="start" x="2459.2938" y="-1843.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1802.5 2360.5,-1832.5 2680.5,-1832.5 2680.5,-1802.5 2360.5,-1802.5"/>
+<text text-anchor="start" x="2367.5" y="-1813.9" font-family="Arial" font-size="14.00" fill="#000000">detail_number </text>
+<text text-anchor="start" x="2460.0764" y="-1813.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(255)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1772.5 2360.5,-1802.5 2680.5,-1802.5 2680.5,-1772.5 2360.5,-1772.5"/>
+<text text-anchor="start" x="2367.5" y="-1783.9" font-family="Arial" font-size="14.00" fill="#000000">department_cd </text>
+<text text-anchor="start" x="2464.7538" y="-1783.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1742.5 2360.5,-1772.5 2680.5,-1772.5 2680.5,-1742.5 2360.5,-1742.5"/>
+<text text-anchor="start" x="2367.5" y="-1753.9" font-family="Arial" font-size="14.00" fill="#000000">main_department_cd </text>
+<text text-anchor="start" x="2502.8688" y="-1753.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(100)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1712.5 2360.5,-1742.5 2680.5,-1742.5 2680.5,-1712.5 2360.5,-1712.5"/>
+<text text-anchor="start" x="2367.5" y="-1723.9" font-family="Arial" font-size="14.00" fill="#000000">year </text>
+<text text-anchor="start" x="2398.6164" y="-1723.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1682.5 2360.5,-1712.5 2680.5,-1712.5 2680.5,-1682.5 2360.5,-1682.5"/>
+<text text-anchor="start" x="2367.5" y="-1693.9" font-family="Arial" font-size="14.00" fill="#000000">month </text>
+<text text-anchor="start" x="2410.2896" y="-1693.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1652.5 2360.5,-1682.5 2680.5,-1682.5 2680.5,-1652.5 2360.5,-1652.5"/>
+<text text-anchor="start" x="2367.5" y="-1663.9" font-family="Arial" font-size="14.00" fill="#000000">overall_progress </text>
+<text text-anchor="start" x="2474.8464" y="-1663.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1622.5 2360.5,-1652.5 2680.5,-1652.5 2680.5,-1622.5 2360.5,-1622.5"/>
+<text text-anchor="start" x="2367.5" y="-1633.9" font-family="Arial" font-size="14.00" fill="#000000">progress_manhour </text>
+<text text-anchor="start" x="2488.859" y="-1633.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1592.5 2360.5,-1622.5 2680.5,-1622.5 2680.5,-1592.5 2360.5,-1592.5"/>
+<text text-anchor="start" x="2367.5" y="-1603.9" font-family="Arial" font-size="14.00" fill="#000000">progress_cost_outsourcing </text>
+<text text-anchor="start" x="2539.434" y="-1603.9" font-family="Arial" font-size="14.00" fill="#666666">[decimal]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1562.5 2360.5,-1592.5 2680.5,-1592.5 2680.5,-1562.5 2360.5,-1562.5"/>
+<text text-anchor="start" x="2367.5" y="-1573.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_change_flag </text>
+<text text-anchor="start" x="2548.7958" y="-1573.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1532.5 2360.5,-1562.5 2680.5,-1562.5 2680.5,-1532.5 2360.5,-1532.5"/>
+<text text-anchor="start" x="2367.5" y="-1543.9" font-family="Arial" font-size="14.00" fill="#000000">sales_adjusted_value </text>
+<text text-anchor="start" x="2505.9922" y="-1543.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1502.5 2360.5,-1532.5 2680.5,-1532.5 2680.5,-1502.5 2360.5,-1502.5"/>
+<text text-anchor="start" x="2367.5" y="-1513.9" font-family="Arial" font-size="14.00" fill="#000000">progress_sales_theory </text>
+<text text-anchor="start" x="2512.9782" y="-1513.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1472.5 2360.5,-1502.5 2680.5,-1502.5 2680.5,-1472.5 2360.5,-1472.5"/>
+<text text-anchor="start" x="2367.5" y="-1483.9" font-family="Arial" font-size="14.00" fill="#000000">progress_sales_report </text>
+<text text-anchor="start" x="2510.6388" y="-1483.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1442.5 2360.5,-1472.5 2680.5,-1472.5 2680.5,-1442.5 2360.5,-1442.5"/>
+<text text-anchor="start" x="2367.5" y="-1453.9" font-family="Arial" font-size="14.00" fill="#000000">end_flag </text>
+<text text-anchor="start" x="2425.0834" y="-1453.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1412.5 2360.5,-1442.5 2680.5,-1442.5 2680.5,-1412.5 2360.5,-1412.5"/>
+<text text-anchor="start" x="2367.5" y="-1423.9" font-family="Arial" font-size="14.00" fill="#000000">comment </text>
+<text text-anchor="start" x="2428.9502" y="-1423.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(2000)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1382.5 2360.5,-1412.5 2680.5,-1412.5 2680.5,-1382.5 2360.5,-1382.5"/>
+<text text-anchor="start" x="2367.5" y="-1393.9" font-family="Arial" font-size="14.00" fill="#000000">order_status_cd </text>
+<text text-anchor="start" x="2471.7538" y="-1393.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1352.5 2360.5,-1382.5 2680.5,-1382.5 2680.5,-1352.5 2360.5,-1352.5"/>
+<text text-anchor="start" x="2367.5" y="-1363.9" font-family="Arial" font-size="14.00" fill="#000000">order_status_name </text>
+<text text-anchor="start" x="2491.9796" y="-1363.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1322.5 2360.5,-1352.5 2680.5,-1352.5 2680.5,-1322.5 2360.5,-1322.5"/>
+<text text-anchor="start" x="2367.5" y="-1333.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
+<text text-anchor="start" x="2467.8632" y="-1333.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1292.5 2360.5,-1322.5 2680.5,-1322.5 2680.5,-1292.5 2360.5,-1292.5"/>
+<text text-anchor="start" x="2367.5" y="-1303.9" font-family="Arial" font-size="14.00" fill="#000000">create_date </text>
+<text text-anchor="start" x="2445.3106" y="-1303.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1262.5 2360.5,-1292.5 2680.5,-1292.5 2680.5,-1262.5 2360.5,-1262.5"/>
+<text text-anchor="start" x="2367.5" y="-1273.9" font-family="Arial" font-size="14.00" fill="#000000">record_user_cd </text>
+<text text-anchor="start" x="2468.6332" y="-1273.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1232.5 2360.5,-1262.5 2680.5,-1262.5 2680.5,-1232.5 2360.5,-1232.5"/>
+<text text-anchor="start" x="2367.5" y="-1243.9" font-family="Arial" font-size="14.00" fill="#000000">record_date </text>
+<text text-anchor="start" x="2446.0806" y="-1243.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<polygon fill="none" stroke="#000000" points="2360.5,-1202.5 2360.5,-1232.5 2680.5,-1232.5 2680.5,-1202.5 2360.5,-1202.5"/>
+<text text-anchor="start" x="2367.5" y="-1213.9" font-family="Arial" font-size="14.00" fill="#000000">delete_flag </text>
+<text text-anchor="start" x="2439.8632" y="-1213.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(1)]</text>
+</g>
+<!-- sh_t_progress_sales_info&#45;&gt;sh_t_order_department_details -->
+<g id="edge7" class="edge">
+<title>sh_t_progress_sales_info:project_number&#45;&gt;sh_t_order_department_details:project_number</title>
+<path fill="none" stroke="#000000" d="M2351.0651,-1873.9558C2287.2937,-1822.0702 2359.4236,-1217.0837 2308.5,-1160 2202.6725,-1041.3708 1764.4728,-1027.5 1605.5,-1027.5"/>
+<polygon fill="#000000" stroke="#000000" points="2351.1387,-1873.9834 2358.9175,-1881.7126 2355.8193,-1875.7417 2360.5,-1877.5 2360.5,-1877.5 2360.5,-1877.5 2355.8193,-1875.7417 2362.0825,-1873.2874 2351.1387,-1873.9834 2351.1387,-1873.9834"/>
 </g>
 </g>
 </svg>
