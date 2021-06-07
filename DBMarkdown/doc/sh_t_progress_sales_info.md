@@ -22,6 +22,7 @@
 | sales_adjusted_value | int | (NULL) | true |  |  | 売上調整値 |
 | progress_sales_theory | int | (NULL) | true |  |  | 進捗度売上（理論値） |
 | progress_sales_report | int | (NULL) | true |  |  | 進捗度売上（報告値) |
+| sales_confirmed_amount | int | (NULL) | true |  |  | 売上確定済金額 |
 | end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
 | comment | nvarchar(2000) | (NULL) | true |  |  | コメント |
 | order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |

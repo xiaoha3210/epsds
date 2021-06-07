@@ -16,6 +16,7 @@
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署ID |
 | year | int | (NULL) | false |  | [sh_t_progress_sales_info](sh_t_progress_sales_info.md) | 年 |
 | month | int | (NULL) | false |  | [sh_t_progress_sales_info](sh_t_progress_sales_info.md) | 月 |
+| progress_sales_status_cd | nvarchar(2) | (NULL) | true |  |  | 進捗ステータスコード（売上）:0ブラック、1売上未入力、2売上未入力（実績無し）、3売上入力中、4売上確定済、5売上最終確定済、6売上連携済、7全売上終了 |
 | overall_progress | decimal | (NULL) | true |  |  | 全体進捗度 |
 | progress_manhour | decimal | (NULL) | true |  |  | 工数進捗度 |
 | progress_cost_outsourcing | decimal | (NULL) | true |  |  | 外注費進捗度 |
@@ -23,6 +24,7 @@
 | sales_adjusted_value | int | (NULL) | true |  |  | 売上調整値 |
 | progress_sales_theory | int | (NULL) | true |  |  | 進捗度売上（理論値） |
 | progress_sales_report | int | (NULL) | true |  |  | 進捗度売上（報告値) |
+| sales_confirmed_amount | int | (NULL) | true |  |  | 売上確定済金額 |
 | end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
 | comment | nvarchar(2000) | (NULL) | true |  |  | コメント |
 | order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |

@@ -3,9 +3,10 @@ CREATE TABLE [dbo].[sh_t_plans_production_costs_info_history] (
   , [order_number] nvarchar(255) not null
   , [detail_number] nvarchar(255) not null
   , [department_cd] nvarchar(100) not null
+  , [history_number] int IDENTITY(1,1) not null
   , [order_amount] int default NULL
   , [expected_days_total] decimal(5,2) default NULL
-  , [history_number] int IDENTITY(1,1) not null
+  , [progress_plans_status_cd] nvarchar(2) default NULL
   , [plans_production_costs] decimal(5,2) default NULL
   , [outsourcing_cost_flag] nvarchar(1) default '2'
   , [plans_outsourcing_cost] int default NULL
@@ -25,9 +26,10 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'PRNo.',@level0
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注No.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'order_number'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'明細No.',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'detail_number'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'部署ID',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'department_cd'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'履歴番号',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'history_number'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'分割受注金額或いは受注金額',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'order_amount'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定工数(按分前)',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'expected_days_total'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'履歴番号',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'history_number'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗ステータスコード（予定工数）:1予定工数未入力、2予定工数入力中、3予定工数確定済、4予定工数最終確定済',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'progress_plans_status_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定工数',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'plans_production_costs'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'外注費有無:0なし、1あり、2未選択',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'outsourcing_cost_flag'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'予定外注費',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_plans_production_costs_info_history',@level2type=N'COLUMN',@level2name=N'plans_outsourcing_cost'

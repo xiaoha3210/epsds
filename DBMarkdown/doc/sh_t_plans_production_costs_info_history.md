@@ -12,9 +12,10 @@
 | order_number | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 受注No. |
 | detail_number | nvarchar(255) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 明細No. |
 | department_cd | nvarchar(100) |  | false |  | [sh_t_plans_production_costs_info](sh_t_plans_production_costs_info.md) | 部署ID |
+| history_number | int |  | false |  |  | 履歴番号 |
 | order_amount | int | (NULL) | true |  |  | 分割受注金額或いは受注金額 |
 | expected_days_total | decimal | (NULL) | true |  |  | 予定工数(按分前) |
-| history_number | int |  | false |  |  | 履歴番号 |
+| progress_plans_status_cd | nvarchar(2) | (NULL) | true |  |  | 進捗ステータスコード（予定工数）:1予定工数未入力、2予定工数入力中、3予定工数確定済、4予定工数最終確定済 |
 | plans_production_costs | decimal | (NULL) | true |  |  | 予定工数 |
 | outsourcing_cost_flag | nvarchar(1) | ('2') | true |  |  | 外注費有無:0なし、1あり、2未選択 |
 | plans_outsourcing_cost | int | (NULL) | true |  |  | 予定外注費 |

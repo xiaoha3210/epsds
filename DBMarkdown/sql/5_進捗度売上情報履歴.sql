@@ -7,6 +7,7 @@ CREATE TABLE [dbo].[sh_t_progress_sales_info_history] (
   , [main_department_cd] nvarchar(100) default NULL
   , [year] int default NULL
   , [month] int default NULL
+  , [progress_sales_status_cd] nvarchar(2) default NULL
   , [overall_progress] decimal(5,2) default NULL
   , [progress_manhour] decimal(5,2) default NULL
   , [progress_cost_outsourcing] decimal(5,2) default NULL
@@ -36,6 +37,7 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'履歴番号',
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'主担当部署ID',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'main_department_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'年',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'year'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'月',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'month'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗ステータスコード（売上）:0ブラック、1売上未入力、2売上未入力（実績無し）、3売上入力中、4売上確定済、5売上最終確定済、6売上連携済、7全売上終了',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'progress_sales_status_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'全体進捗度',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'overall_progress'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'工数進捗度',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'progress_manhour'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'外注費進捗度',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info_history',@level2type=N'COLUMN',@level2name=N'progress_cost_outsourcing'
