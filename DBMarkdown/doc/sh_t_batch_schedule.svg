@@ -31,7 +31,7 @@
 <text text-anchor="start" x="79.9558" y="-236.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-195.5 46.5,-225.5 331.5,-225.5 331.5,-195.5 46.5,-195.5"/>
 <text text-anchor="start" x="53.5" y="-206.9" font-family="Arial" font-size="14.00" fill="#000000">time </text>
-<text text-anchor="start" x="83.831" y="-206.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
+<text text-anchor="start" x="83.831" y="-206.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
 <polygon fill="none" stroke="#000000" points="46.5,-165.5 46.5,-195.5 331.5,-195.5 331.5,-165.5 46.5,-165.5"/>
 <text text-anchor="start" x="53.5" y="-176.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
 <text text-anchor="start" x="153.8632" y="-176.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
