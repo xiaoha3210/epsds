@@ -12,7 +12,7 @@
 | year | int |  | false |  |  | 実行年 |
 | month | int |  | false |  |  | 実行月 |
 | day | int |  | false |  |  | 実行日 |
-| time | datetime2 |  | false |  |  | 実行時間 |
+| time | nvarchar(5) |  | false |  |  | 実行時間 |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
 | create_date | datetime2 | (NULL) | true |  |  | 作成日時 |
 | record_user_cd | nvarchar(10) | (NULL) | true |  |  | 更新者コード |

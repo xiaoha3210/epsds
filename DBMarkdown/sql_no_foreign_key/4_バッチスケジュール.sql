@@ -3,7 +3,7 @@ CREATE TABLE [dbo].[sh_t_batch_schedule] (
   , [year] int not null
   , [month] int not null
   , [day] int not null
-  , [time] datetime2 not null
+  , [time] nvarchar(5) not null
   , [create_user_cd] nvarchar(10) default NULL
   , [create_date] datetime2 default NULL
   , [record_user_cd] nvarchar(10) default NULL

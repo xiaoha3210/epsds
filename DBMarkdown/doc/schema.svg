@@ -571,7 +571,7 @@
 <text text-anchor="start" x="1945.9558" y="-3051.9" font-family="Arial" font-size="14.00" fill="#666666">[int]</text>
 <polygon fill="none" stroke="#000000" points="1912.5,-3010.5 1912.5,-3040.5 2197.5,-3040.5 2197.5,-3010.5 1912.5,-3010.5"/>
 <text text-anchor="start" x="1919.5" y="-3021.9" font-family="Arial" font-size="14.00" fill="#000000">time </text>
-<text text-anchor="start" x="1949.831" y="-3021.9" font-family="Arial" font-size="14.00" fill="#666666">[datetime2]</text>
+<text text-anchor="start" x="1949.831" y="-3021.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(5)]</text>
 <polygon fill="none" stroke="#000000" points="1912.5,-2980.5 1912.5,-3010.5 2197.5,-3010.5 2197.5,-2980.5 1912.5,-2980.5"/>
 <text text-anchor="start" x="1919.5" y="-2991.9" font-family="Arial" font-size="14.00" fill="#000000">create_user_cd </text>
 <text text-anchor="start" x="2019.8632" y="-2991.9" font-family="Arial" font-size="14.00" fill="#666666">[nvarchar(10)]</text>
