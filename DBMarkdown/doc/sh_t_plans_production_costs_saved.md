@@ -8,10 +8,10 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | PRNo. |
-| order_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 受注No. |
-| detail_number | nvarchar(255) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
-| department_cd | nvarchar(100) |  | false |  | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
+| project_number | nvarchar(255) |  | false |  |  | PRNo. |
+| order_number | nvarchar(255) |  | false |  |  | 受注No. |
+| detail_number | nvarchar(255) |  | false |  |  | 明細No. |
+| department_cd | nvarchar(100) |  | false |  |  | 部署ID |
 | order_amount | int | (NULL) | true |  |  | 分割受注金額或いは受注金額 |
 | expected_days_total | decimal | (NULL) | true |  |  | 予定工数(按分前) |
 | plans_production_costs | decimal | (NULL) | true |  |  | 予定工数 |
@@ -31,7 +31,6 @@
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_pla_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd ] |
-| FK__sh_t_plans_produ_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_department_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 

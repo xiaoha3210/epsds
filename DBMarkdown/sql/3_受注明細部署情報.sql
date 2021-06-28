@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[sh_t_order_department_details] (
   , [department_cd] nvarchar(100) default NULL
   , [main_department_cd] nvarchar(100) default NULL
   , [order_amount] int default NULL
-  , [sales_confirmed_amount] int default NULL
+  , [sales_confirmed_amount] int default 0
   , [progress_sales_status_cd] nvarchar(2) default NULL
   , [progress_plans_status_cd] nvarchar(2) default NULL
   , [charge_division_cd] nvarchar(2) default 0  

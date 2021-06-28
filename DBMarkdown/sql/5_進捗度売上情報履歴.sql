@@ -15,7 +15,7 @@ CREATE TABLE [dbo].[sh_t_progress_sales_info_history] (
   , [sales_adjusted_value] int default NULL
   , [progress_sales_theory] int default NULL
   , [progress_sales_report] int default NULL
-  , [sales_confirmed_amount] int default NULL
+  , [sales_confirmed_amount] int default 0
   , [end_flag] nvarchar(1) default 0
   , [comment] nvarchar(2000) default NULL
   , [order_status_cd] nvarchar(10) default NULL

@@ -8,8 +8,8 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false | [sh_t_order_details](sh_t_order_details.md) |  | PRNo. |
-| order_number | nvarchar(255) |  | false | [sh_t_order_details](sh_t_order_details.md) |  | 受注No. |
+| project_number | nvarchar(255) |  | false |  |  | PRNo. |
+| order_number | nvarchar(255) |  | false |  |  | 受注No. |
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署ID |
 | project_name | nvarchar(1000) | (NULL) | true |  |  | 試験名 |
 | project_short_name | nvarchar(1000) | (NULL) | true |  |  | 試験名略称 |

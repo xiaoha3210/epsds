@@ -8,13 +8,13 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | PRNo. |
-| order_number | nvarchar(255) |  | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | 受注No. |
-| detail_number | nvarchar(255) |  | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | 明細No. |
-| department_cd | nvarchar(100) |  | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) | [sh_t_order_department_details](sh_t_order_department_details.md) | 部署ID |
+| project_number | nvarchar(255) |  | false |  |  | PRNo. |
+| order_number | nvarchar(255) |  | false |  |  | 受注No. |
+| detail_number | nvarchar(255) |  | false |  |  | 明細No. |
+| department_cd | nvarchar(100) |  | false |  |  | 部署ID |
 | main_department_cd | nvarchar(100) | (NULL) | true |  |  | 主担当部署ID |
-| year | int | (NULL) | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) |  | 年 |
-| month | int | (NULL) | false | [sh_t_progress_sales_info_history](sh_t_progress_sales_info_history.md) |  | 月 |
+| year | int | (NULL) | false |  |  | 年 |
+| month | int | (NULL) | false |  |  | 月 |
 | overall_progress | decimal | (NULL) | true |  |  | 全体進捗度 |
 | progress_manhour | decimal | (NULL) | true |  |  | 工数進捗度 |
 | progress_cost_outsourcing | decimal | (NULL) | true |  |  | 外注費進捗度 |
@@ -22,7 +22,7 @@
 | sales_adjusted_value | int | (NULL) | true |  |  | 売上調整値 |
 | progress_sales_theory | int | (NULL) | true |  |  | 進捗度売上（理論値） |
 | progress_sales_report | int | (NULL) | true |  |  | 進捗度売上（報告値) |
-| sales_confirmed_amount | int | (NULL) | true |  |  | 売上確定済金額 |
+| sales_confirmed_amount | int | ((0)) | true |  |  | 売上確定済金額 |
 | end_flag | nvarchar(1) | ((0)) | true |  |  | 終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了 |
 | comment | nvarchar(2000) | (NULL) | true |  |  | コメント |
 | order_status_cd | nvarchar(10) | (NULL) | true |  |  | 受注ステータスコード |
@@ -38,7 +38,6 @@
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_pro_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number, department_cd, year, month ] |
-| FK__sh_t_progress_sa_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number, detail_number, department_cd) REFERENCES sh_t_order_department_details(project_number, order_number, detail_number, department_cd) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 

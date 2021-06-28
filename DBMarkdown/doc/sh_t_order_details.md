@@ -8,10 +8,10 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| project_number | nvarchar(255) |  | false | [sh_t_order_department_details](sh_t_order_department_details.md) | [sh_t_order_list](sh_t_order_list.md) | PRNo. |
-| order_number | nvarchar(255) |  | false | [sh_t_order_department_details](sh_t_order_department_details.md) | [sh_t_order_list](sh_t_order_list.md) | 受注No. |
+| project_number | nvarchar(255) |  | false |  |  | PRNo. |
+| order_number | nvarchar(255) |  | false |  |  | 受注No. |
 | sales_department_cd | nvarchar(100) | (NULL) | true |  |  | 売上部署ID |
-| detail_number | nvarchar(255) | (NULL) | false | [sh_t_order_department_details](sh_t_order_department_details.md) |  | 明細No. |
+| detail_number | nvarchar(255) | (NULL) | false |  |  | 明細No. |
 | details | nvarchar(1000) | (NULL) | true |  |  | 明細内容 |
 | order_amount_before_apportionment | int | (NULL) | true |  |  | 受注金額(按分前) |
 | create_user_cd | nvarchar(10) | (NULL) | true |  |  | 作成者コード |
@@ -26,7 +26,6 @@
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
 | PK__sh_t_ord_* | PRIMARY KEY | CLUSTERED, unique, part of a PRIMARY KEY constraint, [ project_number, order_number, detail_number ] |
-| FK__sh_t_order_detai_* | FOREIGN KEY | FOREIGN KEY(project_number, order_number) REFERENCES sh_t_order_list(project_number, order_number) ON UPDATE NO_ACTION ON DELETE NO_ACTION |
 
 ## Indexes
 
