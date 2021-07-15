@@ -14,7 +14,7 @@ CREATE TABLE [dbo].[sh_t_progress_sales_info] (
   , [progress_sales_theory] int default NULL
   , [progress_sales_report] int default NULL
   , [sales_confirmed_amount] int default 0
-  , [end_flag] nvarchar(1) default 0
+  , [end_flag] nvarchar(1) default 3
   , [comment] nvarchar(2000) default NULL
   , [order_status_cd] nvarchar(10) default NULL
   , [order_status_name] nvarchar(10) default NULL
@@ -41,7 +41,7 @@ EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'売上調整�
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗度売上（理論値）',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'progress_sales_theory'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'進捗度売上（報告値)',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'progress_sales_report'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'売上確定済金額',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'sales_confirmed_amount'
-EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'end_flag'
+EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'終了フラグ:0未終了、1進捗度100%で終了、2進捗度関係なく終了、3未選択',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'end_flag'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'コメント',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'comment'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注ステータスコード',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'order_status_cd'
 EXEC sys.sp_addextendedproperty  @name=N'MS_Description',@value=N'受注名ステータス',@level0type=N'SCHEMA',@level0name=N'dbo',@level1type=N'TABLE',@level1name=N'sh_t_progress_sales_info',@level2type=N'COLUMN',@level2name=N'order_status_name'
